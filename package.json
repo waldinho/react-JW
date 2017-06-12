@@ -1,8 +1,8 @@
 
 {
-  "name": "portfolio-redux-app",
+  "name": "portfolio-JW",
   "version": "0.0.1",
-  "description": "A portfolio template built with Redux and React",
+  "description": "portfolio-JW",
   "scripts": {
     "slate": "rm -rf node_modules && npm install",
     "clean": "rm -rf dist",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caljrimmer/portfolio-redux-app.git"
+    "url": "git+https://github.com/waldinho/react-JW"
   },
   "license": "MIT",
   "dependencies": {
