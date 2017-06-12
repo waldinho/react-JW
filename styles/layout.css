@@ -28,7 +28,8 @@ body {
 
 html {
     font-family: "Quicksand", Helvetica, Arial, sans-serif;
-    background: #fff;
+    background: #fff url(assets/bg.png) top no-repeat;
+    background-size: cover;
 }
 
 h1,
@@ -91,13 +92,14 @@ h6 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 3rem;
-    background: #FF7575;
+    background: #000;
+    border-bottom: 1px solid #fff;
 }
 
 .masthead-title {
     margin-top: 0;
     margin-bottom: 0;
-    color: #404040;
+    color: #FF7575;
 }
 
 .masthead-title a {
@@ -154,7 +156,7 @@ h6 {
     font-size: .875rem;
     /* 15px */
     color: #fff;
-    background-color: #404040;
+    background-color: #FF7575;
     ;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -229,9 +231,10 @@ a.sidebar-nav-item:focus {
     left: 1rem;
     display: block;
     padding: .25rem .75rem;
-    color: #404040;
+    color: #FF7575;
     background-color: #fff;
     cursor: pointer;
+    border: 1px solid #fff;
 }
 
 .sidebar-toggle:before {
@@ -239,26 +242,26 @@ a.sidebar-nav-item:focus {
     width: 1rem;
     height: .75rem;
     content: "";
-    background-image: -webkit-linear-gradient(to bottom, #404040, #404040 20%, #fff 20%, #fff 40%, #404040 40%, #404040 60%, #fff 60%, #fff 80%, #404040 80%, #404040 100%);
-    background-image: -moz-linear-gradient(to bottom, #404040, #404040 20%, #fff 20%, #fff 40%, #404040 40%, #404040 60%, #fff 60%, #fff 80%, #404040 80%, #404040 100%);
-    background-image: -ms-linear-gradient(to bottom, #404040, #404040 20%, #fff 20%, #fff 40%, #404040 40%, #404040 60%, #fff 60%, #fff 80%, #404040 80%, #404040 100%);
-    background-image: linear-gradient(to bottom, #404040, #404040 20%, #fff 20%, #fff 40%, #404040 40%, #404040 60%, #fff 60%, #fff 80%, #404040 80%, #404040 100%);
+    background-image: -webkit-linear-gradient(to bottom, #FF7575, #FF7575 20%, #fff 20%, #fff 40%, #FF7575 40%, #FF7575 60%, #fff 60%, #fff 80%, #FF7575 80%, #FF7575 100%);
+    background-image: -moz-linear-gradient(to bottom, #FF7575, #FF7575 20%, #fff 20%, #fff 40%, #FF7575 40%, #FF7575 60%, #fff 60%, #fff 80%, #FF7575 80%, #FF7575 100%);
+    background-image: -ms-linear-gradient(to bottom, #FF7575, #FF7575 20%, #fff 20%, #fff 40%, #FF7575 40%, #FF7575 60%, #fff 60%, #fff 80%, #FF7575 80%, #FF7575 100%);
+    background-image: linear-gradient(to bottom, #FF7575, #FF7575 20%, #fff 20%, #fff 40%, #FF7575 40%, #FF7575 60%, #fff 60%, #fff 80%, #FF7575 80%, #FF7575 100%);
 }
 
 .open .sidebar-toggle:active,
 .open .sidebar-toggle,
 .open .sidebar-toggle {
     color: #fff;
-    background-color: #404040;
+    background-color: #FF7575;
 }
 
 .open .sidebar-toggle:active:before,
 .open .sidebar-toggle:before,
 .open .sidebar-toggle:before {
-    background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #404040 20%, #404040 40%, #fff 40%, #fff 60%, #404040 60%, #404040 80%, #fff 80%, #fff 100%);
-    background-image: -moz-linear-gradient(to bottom, #fff, #fff 20%, #404040 20%, #404040 40%, #fff 40%, #fff 60%, #404040 60%, #404040 80%, #fff 80%, #fff 100%);
-    background-image: -ms-linear-gradient(to bottom, #fff, #fff 20%, #404040 20%, #404040 40%, #fff 40%, #fff 60%, #404040 60%, #404040 80%, #fff 80%, #fff 100%);
-    background-image: linear-gradient(to bottom, #fff, #fff 20%, #404040 20%, #404040 40%, #fff 40%, #fff 60%, #404040 60%, #404040 80%, #fff 80%, #fff 100%);
+    background-image: -webkit-linear-gradient(to bottom, #fff, #fff 20%, #FF7575 20%, #FF7575 40%, #fff 40%, #fff 60%, #FF7575 60%, #FF7575 80%, #fff 80%, #fff 100%);
+    background-image: -moz-linear-gradient(to bottom, #fff, #fff 20%, #FF7575 20%, #FF7575 40%, #fff 40%, #fff 60%, #FF7575 60%, #FF7575 80%, #fff 80%, #fff 100%);
+    background-image: -ms-linear-gradient(to bottom, #fff, #fff 20%, #FF7575 20%, #FF7575 40%, #fff 40%, #fff 60%, #FF7575 60%, #FF7575 80%, #fff 80%, #fff 100%);
+    background-image: linear-gradient(to bottom, #fff, #fff 20%, #FF7575 20%, #FF7575 40%, #fff 40%, #fff 60%, #FF7575 60%, #FF7575 80%, #fff 80%, #fff 100%);
 }
 
 @media (min-width: 30.1em) {
