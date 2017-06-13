@@ -445,7 +445,7 @@ tbody tr:nth-child(odd) th {
     /* clearfix */
     margin-left: -1rem;
     margin-right: -1rem;
-    font-family: "Quicksand", Helvetica, Arial, sans-serif;
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
     color: #ccc;
     text-align: center;
 }
