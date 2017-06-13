@@ -17,9 +17,14 @@ class Home extends Component {
 
     return (
 
-      	<div className="posts">
+      
 
-  		</div>
+      	<div className="posts">
+          <div className="picture-bg">
+            </div>
+        </div>
+
+  		
   
     );
   }
