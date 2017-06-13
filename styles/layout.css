@@ -335,9 +335,6 @@ a.sidebar-nav-item:focus {
     position:fixed;
     padding: 200px 200px 200px 78px;
     color:#fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size:86px;
     margin:0;
     z-index:-1;
     top:0;
@@ -348,8 +345,14 @@ a.sidebar-nav-item:focus {
     background-size: cover;
 }
 
-.picture-bg p>span{
-    background-color:#000;padding: 15px 15px 5px 15px;
+.picture-bg h1>span{
+    background-color:#000;
+    padding: 15px 15px 5px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:76px;
+    letter-spacing:0px;
+    line-height:91px;
 }
 
 .sidebar-footer a {

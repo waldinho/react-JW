@@ -21,17 +21,17 @@ class Home extends Component {
 
       	<div className="posts">
           <div className="picture-bg">
-          <p><span>
+          <h1><span>
           Blah blah blah
-          </span></p>
+          </span></h1>
 
-          <p><span>
+          <h1><span>
           Blah blah blah
-          </span></p>
+          </span></h1>
 
-          <p><span>
+          <h1><span>
           Blah blah blah
-          </span></p>
+          </span></h1>
 
             </div>
         </div>
