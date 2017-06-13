@@ -333,7 +333,11 @@ a.sidebar-nav-item:focus {
 
 .picture-bg {
     position:fixed;
-    padding:0;
+    padding: 200px 200px 200px 78px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:86px;
     margin:0;
     z-index:-1;
     top:0;
@@ -343,6 +347,11 @@ a.sidebar-nav-item:focus {
     background: #fff url(assets/bg.png) top no-repeat;
     background-size: cover;
 }
+
+.picture-bg p>span{
+    background-color:#000;padding: 15px 15px 5px 15px;
+}
+
 .sidebar-footer a {
     color: #1db7a9;
     opacity: 0.8;
