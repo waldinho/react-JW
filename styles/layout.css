@@ -333,9 +333,9 @@ a.sidebar-nav-item:focus {
 
 .picture-bg {
     position:fixed;
-    padding: 200px 200px 200px 78px;
+    padding: 100px 0;
     color:#fff;
-    margin:0;
+    margin:0 auto;
     z-index:-1;
     top:0;
     left:0;
@@ -343,9 +343,10 @@ a.sidebar-nav-item:focus {
     height: 100%;
     background: #fff url(assets/bg.png) top no-repeat;
     background-size: cover;
+    font-family: 'Lobster', cursive;
 }
 
-.picture-bg h1>span{
+/*.picture-bg h1>span{
     background-color:#000;
     padding: 15px 15px 5px 15px;
     text-transform: uppercase;
@@ -353,6 +354,41 @@ a.sidebar-nav-item:focus {
     font-size:76px;
     letter-spacing:0px;
     line-height:91px;
+}*/
+
+
+
+.circle {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  background: #86dae4;
+  margin-top: 150px;
+}
+
+.picture-bg h1 {
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  margin-top: -250px;
+  font-family: 'Lobster', cursive;
+  -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  /*-----------------------*/
+  text-shadow: 1px 1px #FF7575, 2px 2px #FF7575, 3px 3px #FF7575, 4px 4px #FF7575, 5px 5px #FF7575, 6px 6px #FF7575, 7px 7px #FF7575, 8px 8px #FF7575, 9px 9px #FF7575, 10px 10px #FF7575, 11px 11px #FF7575, 12px 12px #FF7575, 13px 13px #FF7575, 14px 14px #FF7575, 15px 15px #FF7575, 16px 16px #FF7575, 17px 17px #FF7575, 18px 18px #FF7575, 19px 19px #FF7575, 20px 20px #FF7575, 21px 21px #FF7575, 22px 22px #FF7575, 23px 23px #FF7575, 24px 24px #FF7575, 25px 25px #FF7575, 26px 26px 6px #fc4b4b;
+  
+}
+
+.picture-bg h1>span:nth-child(3), span:nth-child(7) { 
+font-size: 60px;
+}
+
+.picture-bg h1>span:nth-child(1), span:nth-child(9), span:nth-child(5)  {
+  font-size: 110px;
 }
 
 .sidebar-footer a {
