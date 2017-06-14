@@ -295,7 +295,7 @@ a.sidebar-nav-item:focus {
     transition: width 0.5s;
 }
 
-.open .picture-bg>h1,
+.open .picture-bg h1,
 .open .picture-bg-holder{
     width:80.6%;
 }
