@@ -327,10 +327,10 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-    max-width: 38rem;
     padding-left: 1rem;
     padding-right: 1rem;
     margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 
@@ -357,7 +357,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title small {
-    font-size: 50%;
+    font-size: 60%;
     font-weight: 400;
     color: #fff;
     letter-spacing: 0;

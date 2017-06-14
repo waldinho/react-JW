@@ -25,7 +25,6 @@ class Home extends Component {
 <div className="circle"></div>
   <h1><span>Hello</span><br/><span>and</span><br/><span>Welcome!</span><br/></h1>
 
-
           {/*<h1><span>
           Blah blah blah
           </span></h1>

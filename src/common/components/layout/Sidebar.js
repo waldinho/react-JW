@@ -22,8 +22,8 @@ class Sidebar extends Component {
 
 		  <nav className="sidebar-nav">
 		    <Link to="/home" className="sidebar-nav-item" activeClassName="active">Home</Link>
-		    <Link to="/portfolio" className="sidebar-nav-item" activeClassName="active">My Portfolio</Link>
-		    <Link to="/services" className="sidebar-nav-item" activeClassName="active">My Services</Link>
+		    <Link to="/portfolio" className="sidebar-nav-item" activeClassName="active">Portfolio</Link>
+		    <Link to="/services" className="sidebar-nav-item" activeClassName="active">Services</Link>
 		    <Link to="/about" className="sidebar-nav-item" activeClassName="active">About</Link>
 		  </nav>
 
