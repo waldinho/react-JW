@@ -332,12 +332,12 @@ ul.clients li.shipserv-logo {
   text-align: center;
   line-height: 50px;
   margin-top: 195px;
-  margin-right: 20px;
+  margin-right:20px;
   font-family: 'Lobster', cursive;
-  -moz-transform: scale(0) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
--webkit-transform: scale(0) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
--o-transform: scale(0) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
--ms-transform: scale(0) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -moz-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-webkit-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-o-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+-ms-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
 transform: scale(0) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
   /*-----------------------*/
   text-shadow: 1px 1px #FF7575, 2px 2px #FF7575, 3px 3px #FF7575, 4px 4px #FF7575, 5px 5px #FF7575, 6px 6px #FF7575, 7px 7px #FF7575, 8px 8px #FF7575, 9px 9px #FF7575, 10px 10px #FF7575, 11px 11px #FF7575, 12px 12px #FF7575, 13px 13px #FF7575, 14px 14px #FF7575, 15px 15px #FF7575, 16px 16px #FF7575, 17px 17px #FF7575, 18px 18px #FF7575, 19px 19px #FF7575, 20px 20px #FF7575, 21px 21px #FF7575, 22px 22px #FF7575, 23px 23px #FF7575, 24px 24px #FF7575, 25px 25px #FF7575, 26px 26px 6px #fc4b4b;

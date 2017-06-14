@@ -334,53 +334,41 @@ a.sidebar-nav-item:focus {
 
 @-webkit-keyframes fadeInFromNone {
     0% {
-        display: none;
-        opacity: 0;
-    }
-
-    1% {
-        display: block;
-        opacity: 0;
-    }
-
-    100% {
-        display: block;
-        opacity: 1;
-    }
+    
+    transform:  translate(0px,225px)  ;
+    transform: scale(0);
+  }
+  100% {
+    
+    transform:  translate(0px,0px)  ;
+    transform: scale(1);
+  }
 }
 
 @-moz-keyframes fadeInFromNone {
     0% {
-        display: none;
-        opacity: 0;
-    }
-
-    1% {
-        display: block;
-        opacity: 0;
-    }
-
-    100% {
-        display: block;
-        opacity: 1;
-    }
+    
+    transform:  translate(0px,225px)  ;
+    transform: scale(0);
+  }
+  100% {
+    
+    transform:  translate(0px,0px)  ;
+    transform: scale(1);
+  }
 }
 
 @-o-keyframes fadeInFromNone {
     0% {
-        display: none;
-        opacity: 0;
-    }
-
-    1% {
-        display: block;
-        opacity: 0;
-    }
-
-    100% {
-        display: block;
-        opacity: 1;
-    }
+    
+    transform:  translate(0px,225px)  ;
+    transform: scale(0);
+  }
+  100% {
+    
+    transform:  translate(0px,0px)  ;
+    transform: scale(1);
+  }
 }
 
    
