@@ -179,6 +179,7 @@ a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
     text-decoration: none;
     background-color: rgba(255, 255, 255, .2);
+    border-left: 20px solid;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
