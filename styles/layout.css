@@ -164,21 +164,23 @@ h6 {
 /* Sidebar nav */
 
 .sidebar-nav {
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid #fff;
+    margin-top:71px
 }
 
 .sidebar-nav-item {
     display: block;
     padding: .5rem 1rem;
-    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-top: 1px solid #fff;
 }
 
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
     text-decoration: none;
-    background-color: rgba(255, 255, 255, .1);
-    border-color: transparent;
+    background-color: rgba(255, 255, 255, .2);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
 
 .sidebar-nav-item span.nav-note {
@@ -196,7 +198,6 @@ a.sidebar-nav-item:focus {
         padding-right: 1.5rem;
     }
 }
-
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 
