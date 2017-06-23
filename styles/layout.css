@@ -301,8 +301,8 @@ a.sidebar-nav-item:focus {
 
 .open .content-portfolio {
     width:80%;
-    -webkit-transition: width 1s; /* Safari */
-    transition: width 1s;
+    -webkit-transition: width 0.8s; /* Safari */
+    transition: width 0.8s;
 }
 
 .open .masthead{
