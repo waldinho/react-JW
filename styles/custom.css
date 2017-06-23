@@ -188,8 +188,8 @@ ul.clients li.shipserv-logo {
     height: 100%;
     background:#fff;
     font-size: 16px;
-    -webkit-transition: width 0.4s; /* Safari */
-    transition: width 0.4s;
+    -webkit-transition: width 0.5s; /* Safari */
+    transition: width 0.5s;
 }
 
 .picture-bg {
@@ -435,3 +435,4 @@ font-size: 60px;
 .picture-bg h1>span:nth-child(1), span:nth-child(9), span:nth-child(5)  {
   font-size: 110px;
 }
+

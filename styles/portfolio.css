@@ -72,6 +72,9 @@
 
 .content-portfolio {
   margin-top: -30px;
+  width:100%;
+  -webkit-transition: width 1s;
+    transition: width 1s;
 }
 
 ::-webkit-scrollbar { 
