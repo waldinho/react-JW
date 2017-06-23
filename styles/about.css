@@ -1,6 +1,11 @@
 .container {
 	max-width:100%;
 }
+.content-about {
+	position: relative;
+	margin-left: 4em;
+	margin-right: 4em;
+}
 .white-bg {
 	color:#000;
 }
@@ -9,8 +14,7 @@
     margin-bottom: 20px;
     height: 35px;
 	text-align:center;
-	margin-right:0 auto;
-	margin-left: 0 auto;
+	margin:0 auto;
 	-webkit-transition: width 0.4s; /* Safari */
     transition: width 0.4s;
 }
@@ -19,9 +23,8 @@
     /*color: rgba(0,0,0,0.54);*/
 	/*font-family: 'Roboto', sans-serif;*/
 	font-size:16px;
-	margin-bottom: 20px;
-	margin-right:0 auto;
-	margin-left: 0 auto;
+	margin:0 auto;
+	padding: 20px 0;
 }
 
 .title h2{

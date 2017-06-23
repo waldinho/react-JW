@@ -6,7 +6,7 @@ class Services extends Component {
 
   render () {
     return (
-      <div>
+      <div className="content-about">
 
       	  <div className="posts">
 						<div className="white-bg"> 

@@ -53,7 +53,7 @@ body {
 /* No `:visited` state is required by default (browsers will use `a`) */
 
 a {
-    color: #1db7a9;
+    color: #FF7575;
     text-decoration: none;
 }
 
@@ -344,6 +344,10 @@ tbody tr:nth-child(odd) th {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 3rem;
+    background: #000;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    width:100%;
 }
 
 .masthead-title {

@@ -16,7 +16,7 @@ class About extends Component {
   render () {
     const { results, isFetching, lastUpdated, error } = this.props;
     return (
-      <div>
+      <div className="content-about">
 
       	  <div className="posts">
              <div className="white-bg"> 
