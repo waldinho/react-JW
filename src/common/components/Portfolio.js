@@ -48,7 +48,7 @@ class Portfolio extends Component {
 				<div className="content-portfolio">
 				<div className="grid">
 					<figure className="effect-jazz">
-						<img src="assets/25.jpg" alt="img25"/>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" alt="img25"/>
 						<figcaption>
 							<h2>Dynamic <span>Jazz</span></h2>
 							<p>When Jazz starts to chase cars, the whole world stands still.</p>
@@ -56,7 +56,7 @@ class Portfolio extends Component {
 						</figcaption>			
 					</figure>
 					<figure className="effect-jazz">
-						<img src="assets/6.jpg" alt="img06"/>
+						<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" alt="img06"/>
 						<figcaption>
 							<h2>Dynamic <span>Jazz</span></h2>
 							<p>When Jazz starts to chase cars, the whole world stands still.</p>
