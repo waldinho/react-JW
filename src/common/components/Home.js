@@ -15,32 +15,14 @@ class Home extends Component {
   render() {
 
     return (
-
-      
-
-      	<div className="posts">
-          <div className="picture-bg">
-
-          <div className="picture-bg-holder"><div className="circle"></div></div>
-            <h1><span>Hello</span><br/><span>and</span><br/><span>Welcome!</span><br/></h1>
-
-          {/*<h1><span>
-          Blah blah blah
-          </span></h1>
-
-          <h1><span>
-          Blah blah blah
-          </span></h1>
-
-          <h1><span>
-          Blah blah blah
-          </span></h1>*/}
-
-          </div>
-        </div>
-
-  		
-  
+              <div className="posts">
+                <div className="picture-bg">
+                  <div className="picture-bg-wrap">
+                    <div className="circle"></div>
+                    <h1><span>Hello</span><br/><span>and</span><br/><span>Welcome!</span><br/></h1>
+                  </div>
+                </div>
+              </div>
     );
   }
 }

@@ -317,14 +317,16 @@ a.sidebar-nav-item:focus {
     animation-iteration-count: 1;
     transform-origin: 50% 50%;
     animation-fill-mode:forwards;
+    margin-right:0 auto;
+    margin-left:0 auto;
 }
 
-.open .picture-bg-holder{
+.open .picture-bg-wrap{
     width:80.6%;
 }
 
 .open .picture-bg h1 {
-    width:79%;
+    /*width:79%;*/
     -webkit-animation: fadeInFromNone 1s ease;
     -moz-animation: fadeInFromNone 1s ease;
     -o-animation: fadeInFromNone 1s ease;
