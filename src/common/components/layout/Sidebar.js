@@ -20,6 +20,13 @@ class Sidebar extends Component {
 
     	<div className="sidebar">
 
+			<div className="profile-wrap">
+
+				<div className="profile"></div>
+				<span className="up-arrow">^</span> Me bossin' it in Hong Kong.
+
+			</div>
+
 		  <nav className="sidebar-nav">
 		    <Link to="/home" className="sidebar-nav-item" activeClassName="active">Home</Link>
 		    <Link to="/portfolio" className="sidebar-nav-item" activeClassName="active">Portfolio</Link>
