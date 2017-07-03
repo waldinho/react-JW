@@ -2,6 +2,9 @@
 {
   "name": "portfolio-JW",
   "version": "0.0.1",
+  "engines": {
+    "node": "7.10.0"
+  },
   "description": "portfolio-JW",
   "scripts": {
     "slate": "rm -rf node_modules && npm install",
