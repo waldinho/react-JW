@@ -307,7 +307,7 @@ a.sidebar-nav-item:focus {
 .open .masthead{
    position:fixed;
 }
-
+ 
 .open .circle{
     -webkit-animation: fadeInFromNone 1s ease;
     -moz-animation: fadeInFromNone 1s ease;
