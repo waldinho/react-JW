@@ -25,6 +25,7 @@ const renderFullPage = (html, initialState) => {
       <head>
         <meta charset="utf-8">
         <title>James Waller</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="/static/app.css">
       </head>
       <body>
