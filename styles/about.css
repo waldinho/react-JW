@@ -10,7 +10,7 @@
 	color:#000;
 }
 .title {
-    border-bottom: 2px solid rgba(0,0,0,0.87);
+    /*border-bottom: 2px solid rgba(0,0,0,0.87);*/
     margin-bottom: 20px;
     height: 100px;
 	text-align:center;
@@ -24,23 +24,31 @@
 	/*font-family: 'Roboto', sans-serif;*/
 	font-size:16px;
 	margin:0 auto;
-	padding: 40px 0;
+	padding: 100px 0;
 	-webkit-transition: width 1s; /* Safari */
     transition: width 1s;
+	max-width: 800px;
 }
 
 .title h2 {
-	color: #FF7575;
-  text-align: center;
-  line-height: 0px;
-  font-size:70px;
-  /*margin-top: -60px;*/
-  /*margin-right:20px;*/
-  font-family: 'Lobster', cursive;
+	color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 65px;
+    margin-top: -155px;
+    margin-right: 10px;
+    font-family: 'Lobster', cursive;
   /*-----------------------*/
-  text-shadow: 1px 1px #86dae4, 2px 2px #86dae4, 3px 3px #86dae4, 4px 4px #86dae4, 5px 5px #86dae4, 6px 6px #86dae4, 7px 7px #86dae4, 8px 8px #86dae4, 9px 9px #86dae4, 10px 10px #86dae4, 11px 11px #86dae4, 12px 12px #86dae4, 13px 13px #86dae4, 14px 14px #86dae4, 15px 15px #86dae4, 16px 16px #86dae4, 17px 17px 5px #86dae4;
+  text-shadow: 1px 1px #FF7575, 2px 2px #FF7575, 3px 3px #FF7575, 4px 4px #FF7575, 5px 5px #FF7575, 6px 6px #FF7575, 7px 7px #FF7575, 8px 8px #FF7575, 9px 9px #FF7575, 10px 10px #FF7575, 11px 11px #FF7575, 12px 12px #FF7575, 13px 13px #FF7575, 14px 14px #FF7575, 15px 15px #FF7575, 16px 16px #FF7575, 17px 17px 5px #FF7575;
 }
 
+.title-circle {
+margin: auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background: #86dae4;
+}
 
 @media (max-width: 40em) {
 	.about,
