@@ -21,7 +21,12 @@ class About extends Component {
       	  <div className="posts">
              <div className="white-bg"> 
                 <div className="title"><h2>About</h2></div>
-                <div className="main-content"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+                <div className="main-content">
+                  <p>My name is James Waller and I am a Web Developer specialising in everything your average web visitor sees and feels. User interface design and front end development.</p>
+
+                  <p>I live in London, after graduating as a Bachelor of Multimedia Technology from Leeds Metropolitan University in 2006. Since then I have enjoyed working in web design and development for over 7 years.</p>
+
+                  <p>I like creating unique clean sites that are easy to understand and navigate. All my works comply with web standards, use the latest industry techniques and are hand coded.</p></div>
              </div>
 	      </div>
 
