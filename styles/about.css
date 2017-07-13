@@ -10,9 +10,9 @@
 	color:#000;
 }
 .title {
-    border-bottom: 2px solid rgba(0,0,0,0.87);;
+    border-bottom: 2px solid rgba(0,0,0,0.87);
     margin-bottom: 20px;
-    height: 35px;
+    height: 100px;
 	text-align:center;
 	margin:0 auto;
 	-webkit-transition: width 1s; /* Safari */
@@ -24,16 +24,23 @@
 	/*font-family: 'Roboto', sans-serif;*/
 	font-size:16px;
 	margin:0 auto;
-	padding: 20px 0;
+	padding: 60px 0;
 	-webkit-transition: width 1s; /* Safari */
     transition: width 1s;
 }
 
-.title h2{
-	color: rgba(0,0,0,0.87);
-	font-size:24px;
-	font-weight: 400;
+.title h2 {
+	color: #000;
+  text-align: center;
+  line-height: 0px;
+  font-size:100px;
+  /*margin-top: -60px;*/
+  /*margin-right:20px;*/
+  font-family: 'Lobster', cursive;
+  /*-----------------------*/
+  text-shadow: 1px 1px #86dae4, 2px 2px #86dae4, 3px 3px #86dae4, 4px 4px #86dae4, 5px 5px #86dae4, 6px 6px #86dae4, 7px 7px #86dae4, 8px 8px #86dae4, 9px 9px #86dae4, 10px 10px #86dae4, 11px 11px #86dae4, 12px 12px #86dae4, 13px 13px #86dae4, 14px 14px #86dae4, 15px 15px #86dae4, 16px 16px #86dae4, 17px 17px #86dae4, 18px 18px #86dae4, 19px 19px #86dae4, 20px 20px #86dae4, 21px 21px #86dae4, 22px 22px #86dae4, 23px 23px #86dae4, 24px 24px #86dae4, 25px 25px #86dae4, 26px 26px 6px #86dae4;
 }
+
 
 @media (max-width: 40em) {
 	.about,
@@ -41,3 +48,4 @@
 		width:100%;
 	}
 }
+
