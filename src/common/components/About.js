@@ -20,7 +20,7 @@ class About extends Component {
 
       	  <div className="posts">
              <div className="white-bg"> 
-                <div className="title"><h2>About</h2></div>
+                <div className="title"><h2>About me!</h2></div>
                 <div className="main-content">
                   <p>My name is James Waller and I am a Web Developer specialising in everything your average web visitor sees and feels. User interface design and front end development.</p>
 
