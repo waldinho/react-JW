@@ -35,6 +35,15 @@ class Sidebar extends Component {
 				<Link to="http://www.james-waller.co.uk/CV" className="sidebar-nav-item" activeClassName="active" target="_blank">CV</Link>
 		  </nav>
 
+			<div className="icon-wrap">
+
+				<div className="facebook"></div>
+				<div className="git"></div>
+				<div className="linkedin"></div>
+				<div className="google"></div>
+
+			</div>
+
 		</div>
     );
   }
