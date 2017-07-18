@@ -615,10 +615,10 @@ font-size: 60px;
 }
 
 @keyframes iconAnimationFrames{
-  0% {
+  20% {
     
     transform:  translate(0px,225px)  ;
-    transform: scale(0.7);
+    transform: scale(0.5);
   }
   100% {
     
@@ -628,10 +628,10 @@ font-size: 60px;
 }
 
 @-moz-keyframes iconAnimationFrames{
-  0% {
+  20% {
     
     transform:  translate(0px,225px)  ;
-    transform: scale(0.7);
+    transform: scale(0.5);
   }
   100% {
     
@@ -641,10 +641,10 @@ font-size: 60px;
 }
 
 @-webkit-keyframes iconAnimationFrames{
-  0% {
+  20% {
     
     transform:  translate(0px,225px)  ;
-    transform: scale(0.7);
+    transform: scale(0.5);
   }
   100% {
     
@@ -654,10 +654,10 @@ font-size: 60px;
 }
 
 @-o-keyframes iconAnimationFrames{
-  0% {
+  20% {
     
     transform:  translate(0px,225px)  ;
-    transform: scale(0.7);
+    transform: scale(0.5);
   }
   100% {
     
@@ -667,10 +667,10 @@ font-size: 60px;
 }
 
 @-ms-keyframes iconAnimationFrames{
-  0% {
+  20% {
     
     transform:  translate(0px,225px)  ;
-    transform: scale(0.7);
+    transform: scale(0.5);
   }
   100% {
     
