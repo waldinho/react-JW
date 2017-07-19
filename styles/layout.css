@@ -305,7 +305,7 @@ a.sidebar-nav-item:focus {
 }
 
 .open .masthead{
-   position:fixed;
+   position:fixed; 
 }
 
 .open .circle{

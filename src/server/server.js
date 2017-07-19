@@ -15,6 +15,8 @@ import configureStore from '../common/store/configureStore';
 import routes from '../common/routes';
 import packagejson from '../../package.json';
 
+
+
 const app = express();
 const renderFullPage = (html, initialState) => {
   return `
@@ -23,6 +25,7 @@ const renderFullPage = (html, initialState) => {
       <head>
         <meta charset="utf-8">
         <title>James Waller</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="/static/app.css">
       </head>
       <body>
@@ -40,9 +43,15 @@ if(process.env.NODE_ENV !== 'production'){
   const compiler = webpack(webpackConfig);
   app.use(webpackDevMiddleware(compiler, { noInfo: true, publicPath: webpackConfig.output.publicPath }));
   app.use(webpackHotMiddleware(compiler));
+  app.use('/favicon.ico', express.static(__dirname + '/../../dist'));
 }else{
   app.use('/static', express.static(__dirname + '/../../dist'));
+  app.use('/favicon.ico', express.static(__dirname + '/../../dist'));
 }
+
+    
+
+
 
 app.get('/*', function (req, res) {
 
