@@ -36,12 +36,10 @@ class Sidebar extends Component {
 		  </nav>
 
 			<div className="icon-wrap">
-
 				<a href="https://www.facebook.com/waldinho" target="_blank"><div className="facebook"></div></a>
 				<a href="https://github.com/waldinho" target="_blank"><div className="git"></div></a>
 				<a href="https://www.linkedin.com/in/james-waller-573b81b/" target="_blank"><div className="linkedin"></div></a>
 				<a href="https://plus.google.com/u/0/112625426367168441968" target="_blank"><div className="google"></div></a>
-
 			</div>
 
 		</div>
