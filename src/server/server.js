@@ -24,8 +24,9 @@ const renderFullPage = (html, initialState) => {
     <html>
       <head>
         <meta charset="utf-8">
-        <title>James Waller</title>
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <title>James Waller | Front End Developer / UX Designer</title>
+        <description>Web Developer specialising in everything your average web visitor sees and feels. User interface design and front end development.</description>
+        <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="/static/app.css">
       </head>
       <body>
