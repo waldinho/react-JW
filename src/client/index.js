@@ -11,6 +11,7 @@ import configureStore from '../common/store/configureStore';
 import routes from '../common/routes';
 
 import "../../styles/index.css";
+import "../../styles/favivon.ico";
 
 const history = createBrowserHistory();
 const initialState = window.__INITIAL_STATE__;
