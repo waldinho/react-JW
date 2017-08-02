@@ -74,7 +74,7 @@ if (process.env.NODE_ENV === 'production') {
           }
         }
       },
-      { test: /\.(png|jpg|gif|jpeg)$/, loader: 'url-loader?limit=8192'},
+      { test: /\.(png|jpg|gif|jpeg|ico)$/, loader: 'url-loader?limit=8192'},
       { test: /\.css$/, loader: 'style-loader!css-loader' }
     ]},
     entry : [
