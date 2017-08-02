@@ -28,6 +28,7 @@ body {
 
 html {
     font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    /*font-family: 'Anonymous Pro', monospace;*/
 }
 
 h1,
@@ -37,6 +38,7 @@ h4,
 h5,
 h6 {
     font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    /*font-family: 'Anonymous Pro', monospace;*/
     font-weight: 400;
     color: #fff;
     letter-spacing: -.025rem;
@@ -130,6 +132,7 @@ h6 {
     visibility: hidden;
     overflow-y: auto;
     font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    /*font-family: 'Anonymous Pro', monospace;*/
     font-size: .875rem;
     /* 15px */
     color: #fff;
@@ -305,7 +308,7 @@ a.sidebar-nav-item:focus {
 }
 
 .open .masthead{
-   position:fixed;
+   position:fixed; 
 }
 
 .open .circle{
@@ -499,6 +502,7 @@ a.sidebar-nav-item:focus {
     margin-left: -1rem;
     margin-right: -1rem;
     font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    /*font-family: 'Anonymous Pro', monospace;*/
     color: #ccc;
     text-align: center;
 }
