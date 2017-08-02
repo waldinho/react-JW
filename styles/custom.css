@@ -457,7 +457,9 @@ font-size: 60px;
 .up-arrow {font-family: -webkit-pictograph;}
 
 .icon-wrap {
-  margin-top: 70px;
+  position:fixed;
+  bottom:0;
+  left:0;
   width:100%;
   padding: 10px 0 0 0;
   text-align:center;
