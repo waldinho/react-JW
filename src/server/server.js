@@ -15,6 +15,8 @@ import configureStore from '../common/store/configureStore';
 import routes from '../common/routes';
 import packagejson from '../../package.json';
 
+
+
 const app = express();
 const renderFullPage = (html, initialState) => {
   return `
@@ -22,7 +24,9 @@ const renderFullPage = (html, initialState) => {
     <html>
       <head>
         <meta charset="utf-8">
-        <title>James Waller</title>
+        <title>James Waller | Front End Developer / UX Designer</title>
+        <description>Web Developer specialising in everything your average web visitor sees and feels. User interface design and front end development.</description>
+        <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="/static/app.css">
       </head>
       <body>
@@ -40,9 +44,15 @@ if(process.env.NODE_ENV !== 'production'){
   const compiler = webpack(webpackConfig);
   app.use(webpackDevMiddleware(compiler, { noInfo: true, publicPath: webpackConfig.output.publicPath }));
   app.use(webpackHotMiddleware(compiler));
+  app.use('/favicon.ico', express.static(__dirname + '/../../dist'));
 }else{
   app.use('/static', express.static(__dirname + '/../../dist'));
+  app.use('/favicon.ico', express.static(__dirname + '/../../dist'));
 }
+
+    
+
+
 
 app.get('/*', function (req, res) {
 
@@ -87,5 +97,5 @@ app.get('/*', function (req, res) {
 const server = app.listen(process.env.PORT || 3002, function () {
   const host = server.address().address;
   const port = server.address().port;
-  console.log('Example app listening at http://%s:%s', host, port);
+  console.log('Example app listening at http://localhost:3002', host, port);
 });
