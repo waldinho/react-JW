@@ -24,8 +24,9 @@ const renderFullPage = (html, initialState) => {
     <html>
       <head>
         <meta charset="utf-8">
-        <title>James Waller</title>
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <title>James Waller | Front End Developer / UX Designer</title>
+        <description>Web Developer specialising in everything your average web visitor sees and feels. User interface design and front end development.</description>
+        <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="/static/app.css">
       </head>
       <body>
@@ -96,5 +97,5 @@ app.get('/*', function (req, res) {
 const server = app.listen(process.env.PORT || 3002, function () {
   const host = server.address().address;
   const port = server.address().port;
-  console.log('Example app listening at http://%s:%s', host, port);
+  console.log('Example app listening at http://localhost:3002', host, port);
 });
