@@ -26,9 +26,8 @@ const renderFullPage = (html, initialState) => {
         <meta charset="utf-8">
         <title>James Waller | Front End Developer / UX Designer</title>
         <description>Web Developer specialising in everything your average web visitor sees and feels. User interface design and front end development.</description>
-        <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="/static/app.css">
-      </head>
+        <link rel="shortcut icon" href="static/95f4831f7bbfecedf7957f8f65fc22bc.png" type="image/x-icon">
+      </head> 
       <body>
         <div id="root">${html}</div>
         <script>
@@ -44,10 +43,10 @@ if(process.env.NODE_ENV !== 'production'){
   const compiler = webpack(webpackConfig);
   app.use(webpackDevMiddleware(compiler, { noInfo: true, publicPath: webpackConfig.output.publicPath }));
   app.use(webpackHotMiddleware(compiler));
-  app.use('/favicon.ico', express.static(__dirname + '/../../dist'));
+  app.use('/favicon.png', express.static(__dirname + '/../../dist'));
 }else{
   app.use('/static', express.static(__dirname + '/../../dist'));
-  app.use('/favicon.ico', express.static(__dirname + '/../../dist'));
+  app.use('/favicon.png', express.static(__dirname + '/../../dist'));
 }
 
     
