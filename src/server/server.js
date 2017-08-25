@@ -36,7 +36,7 @@ const renderFullPage = (html, initialState) => {
         <script src="/static/bundle.js"></script>
       </body>
     </html>
-  `;
+  `; 
 }
 
 if(process.env.NODE_ENV !== 'production'){
