@@ -27,7 +27,8 @@ body {
 }
 
 html {
-    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+
     /*font-family: 'Anonymous Pro', monospace;*/
 }
 
@@ -37,7 +38,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    
+
     /*font-family: 'Anonymous Pro', monospace;*/
     font-weight: 400;
     color: #fff;
@@ -131,7 +133,8 @@ h6 {
     width: 14rem;
     visibility: hidden;
     overflow-y: auto;
-    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    
+
     /*font-family: 'Anonymous Pro', monospace;*/
     font-size: .875rem;
     /* 15px */
@@ -510,7 +513,8 @@ a.sidebar-nav-item:focus {
     /* clearfix */
     margin-left: -1rem;
     margin-right: -1rem;
-    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    
+
     /*font-family: 'Anonymous Pro', monospace;*/
     color: #ccc;
     text-align: center;
