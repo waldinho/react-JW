@@ -448,7 +448,6 @@ tbody tr:nth-child(odd) th {
     /* clearfix */
     margin-left: -1rem;
     margin-right: -1rem;
-    font-family: 'Poiret One', cursive;
     /*font-family: 'Anonymous Pro', monospace;*/
     color: #ccc;
     text-align: center;
