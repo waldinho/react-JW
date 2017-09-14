@@ -7,7 +7,7 @@ npm install
 npm start
 
 
-To do:
+<u>To do</u>:
 
 1. Mobile site
 2. Services
