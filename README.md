@@ -14,3 +14,4 @@ npm start
 3. Portolio companies
 4. Portfolio case studies
 5. More on about me.
+6. Clean up unused code.
