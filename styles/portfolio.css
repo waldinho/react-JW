@@ -254,10 +254,7 @@ figure.effect-jazz:hover p {
 	.picture-bg {
 		zoom: 0.5;
 	}
-	.open .circle {
-		display:none;
-	}
-	.open .circle h1 {
+	.open .pictur-bg-wrap {
 		display:none;
 	}
 	.facebook {
