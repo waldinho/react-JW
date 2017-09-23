@@ -736,10 +736,3 @@ a.pagination-item:hover {
     box-shadow: -.25rem 0 .5rem rgba(0, 0, 0, .1);
 }
 
-
-
-@media only screen and (max-width: 480px) {
-    .masthead-title {
-      font-size: 55px;
-    }
-}
