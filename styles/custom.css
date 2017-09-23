@@ -635,9 +635,9 @@ font-size: 60px;
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 480px) {
     .open .sidebar-nav {
-      zoom: 2;
+      zoom: 1.8;
     }
     .masthead {
       zoom: 1.5;
