@@ -254,21 +254,24 @@ figure.effect-jazz:hover p {
 	.picture-bg {
 		zoom: 0.5;
 	}
-	.open .picture-bg {
+	.open .circle {
+		display:none;
+	}
+	.open .circle h1 {
 		display:none;
 	}
 	.facebook {
-      margin: 0 0 15px 10px !important;
+      margin: 0 0 15px 5px !important;
 	  width: 52px !important;
       height: 52px !important;
     }
     .git {
-      margin: 0 0 15px 10px !important;
+      margin: 0 0 15px 5px !important;
 	  width: 52px !important;
       height: 52px !important;
     }
     .linkedin {
-      margin: 0 0 15px 10px !important;
+      margin: 0 0 15px 5px !important;
 	  width: 52px !important;
       height: 52px !important;
     }
@@ -280,12 +283,12 @@ figure.effect-jazz:hover p {
     	margin: 57px 0 0 !important;
 	}
 	.grid {
-    	padding: 0;
+    	padding: 1em 0 0 0;
 	}
 	.content {
     	margin-top: 58px;
 	}
 	.content-about {
-		margin-top: -8px;
+		margin-top: -17px;
 	}
 }
