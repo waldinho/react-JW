@@ -251,4 +251,31 @@ figure.effect-jazz:hover p {
 		margin: 10px auto;
 		width: 100%;
 	}
+	.picture-bg {
+		zoom: 0.5;
+	}
+	.facebook {
+      margin: 0 0 15px 10px;
+    }
+    .git {
+      margin: 0 0 15px 10px;
+    }
+    .linkedin {
+      margin: 0 0 15px 10px;
+    }
+    .google {
+      margin: 0 0 15px 10px;
+    }
+	.profile-wrap {
+    	margin: 57px 0 0;
+	}
+	.grid {
+    	padding: 1em 0 1em;
+	}
+	.content {
+    	margin-top: 12px;
+	}
+	.content-about {
+		margin-top: 30px;
+	}
 }
