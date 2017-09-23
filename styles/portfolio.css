@@ -257,26 +257,31 @@ figure.effect-jazz:hover p {
 	.open .circle {
 		display:none;
 	}
-	.open .pictur-bg-wrap h1 {
+	.open .lobster {
 		display:none;
 	}
+	.icon-wrap {
+		display: flex !important;
+		justify-content: center !important;
+		padding: 10px 0 !important;
+	}
 	.facebook {
-      margin: 0 0 1% 5% !important;
+      margin: 0 0 1% 1% !important;
 	  width: 52px !important;
       height: 52px !important;
     }
     .git {
-      margin: 0 0 1% 5% !important;
+      margin: 0 0 1% 1% !important;
 	  width: 52px !important;
       height: 52px !important;
     }
     .linkedin {
-      margin: 0 0 1% 5% !important;
+      margin: 0 0 1% 1% !important;
 	  width: 52px !important;
       height: 52px !important;
     }
     .google {
-	  margin: 0 0 1% 5% !important;
+	  margin: 0 0 1% 1% !important;
       width: 52px !important;
       height: 52px !important;
     }
