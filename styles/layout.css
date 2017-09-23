@@ -97,14 +97,14 @@ h6 {
     margin-left: 0.6em;
 }
 
-/*@media (max-width: 48em) {
-    .masthead-title {
+@media (max-width: 48em) {
+    /*.masthead-title {
         text-align: center;
-    }
+    }*/
     .masthead-title small {
         display: none;
     }
-}*/
+}
 
 
 /*
