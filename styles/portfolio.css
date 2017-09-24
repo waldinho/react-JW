@@ -251,7 +251,7 @@ figure.effect-jazz:hover p {
 		margin: 10px auto;
 		width: 100%;
 	}
-	.circle, .lobster h1 {
+	.circle, .lobster, h1 {
 		zoom: 0.5 !important;
 	}
 	.open .circle {
