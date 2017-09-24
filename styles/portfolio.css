@@ -251,8 +251,8 @@ figure.effect-jazz:hover p {
 		margin: 10px auto;
 		width: 100%;
 	}
-	.circle, .lobster {
-		zoom: 0.5;
+	.circle, .lobster h1 {
+		zoom: 0.5 !important;
 	}
 	.open .circle {
 		display:none;
@@ -288,7 +288,7 @@ figure.effect-jazz:hover p {
       height: 52px !important;
     }
 	.profile-wrap {
-    	margin: 57px 0 0 !important;
+    	margin: 4.75em 0 0 !important;
 	}
 	.grid {
     	padding: 1em 0;
