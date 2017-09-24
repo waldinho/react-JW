@@ -263,7 +263,8 @@ figure.effect-jazz:hover p {
 	.icon-wrap {
 		display: flex !important;
 		justify-content: center !important;
-		padding: 10px 0 !important;
+		padding: 3px 0 !important;
+		top: 0 !important;
 	}
 	.facebook {
       margin: 0 0 1% 1% !important;
