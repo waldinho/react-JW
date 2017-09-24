@@ -265,6 +265,7 @@ figure.effect-jazz:hover p {
 		justify-content: center !important;
 		padding: 3px 0 !important;
 		top: 0 !important;
+		bottom: 100% !important;
 	}
 	.facebook {
       margin: 0 0 1% 1% !important;
