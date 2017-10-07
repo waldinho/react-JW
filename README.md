@@ -9,9 +9,8 @@ npm start
 
 <u>To do</u>:
 
-1. Mobile site
-2. Services
-3. Portolio companies
-4. Portfolio case studies
-5. More on about me.
-6. Clean up unused code.
+1. Services (use CircleHoverEffects???)
+2. Portolio companies (use CircleHoverEffects???)
+3. Portfolio case studies
+4. More on about me.
+5. Clean up unused code.
