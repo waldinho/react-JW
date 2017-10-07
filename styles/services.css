@@ -18,25 +18,29 @@
 
 .title-services h2 {
 	color: #fff;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
     text-align: center;
     line-height: 50px;
     font-size: 55px;
-    margin-top: -133px;
+    /*margin-top: -133px;*/
     margin-right: 18px;
     font-family: 'Lobster', cursive;
 	margin-bottom:28px;
   /*-----------------------*/
-  text-shadow: 1px 1px #FF7575, 2px 2px #FF7575, 3px 3px #FF7575, 4px 4px #FF7575, 5px 5px #FF7575, 6px 6px #FF7575, 7px 7px #FF7575, 8px 8px #FF7575, 9px 9px #FF7575, 10px 10px #FF7575, 11px 11px #FF7575, 12px 12px #FF7575, 13px 13px #FF7575, 14px 14px #FF7575, 15px 15px #FF7575, 16px 16px #FF7575, 17px 17px 5px #FF7575;
+  /*text-shadow: 1px 1px #FF7575, 2px 2px #FF7575, 3px 3px #FF7575, 4px 4px #FF7575, 5px 5px #FF7575, 6px 6px #FF7575, 7px 7px #FF7575, 8px 8px #FF7575, 9px 9px #FF7575, 10px 10px #FF7575, 11px 11px #FF7575, 12px 12px #FF7575, 13px 13px #FF7575, 14px 14px #FF7575, 15px 15px #FF7575, 16px 16px #FF7575, 17px 17px 5px #FF7575;*/
 }
 
 .no-pad {
 	padding:0px !important;
 }
 
-.pad-50 {padding:50px 0 0 0 !important; }
+.pad-50 {
+	padding:40px 0 0 0 !important;
+}
 
 .ch-grid {
-	margin: 70px 0 0 0;
+	margin: 20px 0 0 0;
 	padding: 0;
 	list-style: none;
 	display: block;
@@ -171,11 +175,11 @@
 }
 
 .ch-item:hover .ch-info-front {
-	-webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
-	-moz-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
-	-o-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
-	-ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
-	transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+	-webkit-transform: translate3d(0,220px,0) rotate3d(1,0,0,-90deg);
+	-moz-transform: translate3d(0,220px,0) rotate3d(1,0,0,-90deg);
+	-o-transform: translate3d(0,220px,0) rotate3d(1,0,0,-90deg);
+	-ms-transform: translate3d(0,220px,0) rotate3d(1,0,0,-90deg);
+	transform: translate3d(0,220px,0) rotate3d(1,0,0,-90deg);
 	opacity: 0;
 }
 
