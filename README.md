@@ -14,3 +14,5 @@ npm start
 3. Portfolio case studies
 4. More on about me.
 5. Clean up unused code.
+
+Maybe add some sort off novelty landing page before loading CV???
