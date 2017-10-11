@@ -19,7 +19,7 @@ class Home extends Component {
                 <div className="picture-bg">
                   <div className="picture-bg-wrap">
                     <div className="circle"></div>
-                    <h1><span>Hello</span><br/><span>and</span><br/><span>Welcome!</span><br/></h1>
+                    <h1 className="lobster"><span>Hello</span><br/><span>and</span><br/><span>Welcome!</span><br/></h1>
                   </div>
                 </div>
               </div>

@@ -27,7 +27,8 @@ body {
 }
 
 html {
-    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+
     /*font-family: 'Anonymous Pro', monospace;*/
 }
 
@@ -37,7 +38,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    
+
     /*font-family: 'Anonymous Pro', monospace;*/
     font-weight: 400;
     color: #fff;
@@ -96,9 +98,9 @@ h6 {
 }
 
 @media (max-width: 48em) {
-    .masthead-title {
+    /*.masthead-title {
         text-align: center;
-    }
+    }*/
     .masthead-title small {
         display: none;
     }
@@ -131,22 +133,16 @@ h6 {
     width: 14rem;
     visibility: hidden;
     overflow-y: auto;
-    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    
+
     /*font-family: 'Anonymous Pro', monospace;*/
-    font-size: .875rem;
+    font-size: .75rem;
     /* 15px */
     color: #fff;
     background-color: #FF7575;
     ;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-}
-
-@media (min-width: 30em) {
-    .sidebar {
-        font-size: .75rem;
-        /* 14px */
-    }
 }
 
 
@@ -296,6 +292,12 @@ a.sidebar-nav-item:focus {
 }
 
 .open .white-bg {
+    width:76%;
+    -webkit-transition: width 0.5s; /* Safari */
+    transition: width 0.5s;
+}
+
+.open .main {
     width:76%;
     -webkit-transition: width 0.5s; /* Safari */
     transition: width 0.5s;
@@ -510,7 +512,8 @@ a.sidebar-nav-item:focus {
     /* clearfix */
     margin-left: -1rem;
     margin-right: -1rem;
-    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    
+
     /*font-family: 'Anonymous Pro', monospace;*/
     color: #ccc;
     text-align: center;
@@ -738,3 +741,4 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked~.sidebar {
     box-shadow: -.25rem 0 .5rem rgba(0, 0, 0, .1);
 }
+

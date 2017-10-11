@@ -239,16 +239,3 @@ figure.effect-jazz:hover p {
 	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
 }
-
-@media screen and (max-width: 50em) {
-	.content {
-		padding: 0 10px;
-		text-align: center;
-	}
-	.grid figure {
-		display: inline-block;
-		float: none;
-		margin: 10px auto;
-		width: 100%;
-	}
-}

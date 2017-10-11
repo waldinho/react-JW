@@ -12,6 +12,8 @@ import routes from '../common/routes';
 
 import "../../styles/index.css";
 
+import '../../styles/assets/favicon.png';
+
 const history = createBrowserHistory();
 const initialState = window.__INITIAL_STATE__;
 const store = configureStore(initialState);

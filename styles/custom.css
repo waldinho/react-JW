@@ -44,60 +44,6 @@ body {
 .an_delay {
   animation-delay: 0.75s;
 }
-
-/**
-* Clients on Home Page
-*/
-
-ul.clients {
-   margin:0;
-   padding:0;
-}
-
-ul.clients li {
-   list-style:none;
-   float:left;
-   margin:1em 1.6em 1em 0em;
-   height:70px;
-   text-indent:-5000px;
-   box-shadow:1px 1px 1px #ccc;
-}
-
-ul.clients li.goldmans-logo {
-   background: url('assets/goldmans-logo.jpg') no-repeat;
-   width:124px;
-}
-
-ul.clients li.orange-logo {
-   background: url('assets/orange-logo.jpg') no-repeat;
-   width:70px;
-}
-
-ul.clients li.tesco-logo {
-   background: url('assets/tesco-logo.jpg') no-repeat;
-   width:181px;
-}
-
-ul.clients li.timeout-logo {
-   background: url('assets/timeout-logo.jpg') no-repeat;
-   width:151px;
-}
-
-ul.clients li.wiley-logo {
-   background: url('assets/wiley-logo.jpg') no-repeat;
-   width:169px;
-}
-
-ul.clients li.covestor-logo {
-   background: url('assets/covestor-logo.jpg') no-repeat;
-   width:218px;
-}
-
-ul.clients li.shipserv-logo {
-   background: url('assets/shipserv-logo.jpg') no-repeat;
-   width:218px;
-}
-
 /**
 * Skill Boxes on Home Page
 */
@@ -180,6 +126,21 @@ ul.clients li.shipserv-logo {
 
 .white-bg {
     position:relative;
+    margin:0;
+    z-index:-1;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background:#fff;
+    font-size: 16px;
+    -webkit-transition: width 0.5s; /* Safari */
+    transition: width 0.5s;
+    text-align: justify;
+}
+
+.main {
+    /*position:relative;*/
     margin:0;
     z-index:-1;
     top:0;
@@ -684,8 +645,115 @@ font-size: 60px;
     transform: scale(0.5);
   }
   100% {
-    
     transform:  translate(0px,0px)  ;
     transform: scale(1);
   }
+}
+
+/*
+@media screen and (max-width: 480px) {
+    .open .sidebar-nav {
+      zoom: 1.8;
+    }
+    .masthead {
+      zoom: 1.5;
+    }
+    .sidebar-toggle {
+      top: 20px;
+    }
+    .masthead-title small {
+      font-size: 60%;
+    }
+    .main-content {
+      font-size: 32px;
+    }
+    .bio, .up-arrow {
+      display:none
+    }
+    .content {
+      height:100%;
+      margin-top:88px;
+    }
+    .open .content {
+      width: 89.2%;
+    }
+    .profile-wrap {
+      margin: 87px 0 0 0;
+    }
+    .facebook {
+      transform: scale(1.2);
+    }
+    .git {
+      transform: scale(1.2);
+    }
+    .linkedin {
+      transform: scale(1.2);
+    }
+    .google {
+      transform: scale(1.2);
+    }
+}*/
+
+
+@media screen and (max-width: 50em) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
+	.picture-bg-wrap {
+		zoom: 0.5 !important;
+	}
+	.open .circle {
+		display:none;
+	}
+	.open .lobster {
+		display:none;
+	}
+	.icon-wrap {
+		display: flex !important;
+		justify-content: center !important;
+		padding: 3px 0 !important;
+		top: 0 !important;
+		bottom: 100% !important;
+	}
+	.facebook {
+      margin: 0 0 1% 1% !important;
+	  width: 52px !important;
+      height: 52px !important;
+    }
+    .git {
+      margin: 0 0 1% 1% !important;
+	  width: 52px !important;
+      height: 52px !important;
+    }
+    .linkedin {
+      margin: 0 0 1% 1% !important;
+	  width: 52px !important;
+      height: 52px !important;
+    }
+    .google {
+	  margin: 0 0 1% 1% !important;
+      width: 52px !important;
+      height: 52px !important;
+    }
+	.profile-wrap {
+    	margin: 4.75em 0 0 !important;
+	}
+	.grid {
+    	padding: 1em 0;
+	}
+	.content {
+    	margin-top: 58px;
+	}
+	.content-about {
+		margin-top: -17px;
+		margin-left: 1em !important;
+    	margin-right: 1em !important;
+	}
 }
