@@ -11,7 +11,7 @@ npm start
 
 1. Services (find images and add copy or maybe make circles bigger and title to front and text under flip effect???)
 2. Portolio companies (use CircleHoverEffects???)
-3. Portfolio case studies
+3. Portfolio case studies - e.g - http://www.james-waller.co.uk/loyal-subscribers/
 4. More on about me.
 5. Clean up unused code.
 
