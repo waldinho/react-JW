@@ -13,6 +13,6 @@ npm start
 2. Portolio companies (use CircleHoverEffects???)
 3. Portfolio case studies - e.g - http://www.james-waller.co.uk/loyal-subscribers/
 4. More on about me.
-5. Clean up unused code.
+5. Clean up unused code (maybe use css variables if time).
 
 Maybe add some sort off novelty landing page before loading CV???
