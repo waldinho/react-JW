@@ -196,7 +196,7 @@
 	-ms-transform: rotate3d(1,0,0,0deg);
 	transform: rotate3d(1,0,0,0deg);
 	opacity: 1;
-	border: 1px solid #000
+	border: 1px solid #000;
 }
 
 @media (max-width: 40em) {
