@@ -20,10 +20,11 @@ class Services extends Component {
               <li>
                 <div className="ch-item">				
                   <div className="ch-info">
-                    <div className="ch-info-front ch-img-1"></div>
+                    <div className="ch-info-front">
+                      <h3>RESPONSIVEWEB DESIGN</h3>
+                    </div>
                     <div className="ch-info-back">
-                      <h3>RESPONSIVE WEB DESIGN</h3>
-                      <p>blah blah</p>
+                      <p className="smaller">I have gained extensive experience designing and building many responsive websites. I have developed a personal approach to testing different solutions that brought me to design mostly in the browser.</p>
                     </div>	
                   </div>
                 </div>
@@ -31,10 +32,11 @@ class Services extends Component {
               <li>
                 <div className="ch-item">
                   <div className="ch-info">
-                    <div className="ch-info-front ch-img-2"></div>
-                    <div className="ch-info-back">
+                    <div className="ch-info-front">
                       <h3>INTERACTIVE DESIGN</h3>
-                      <p>blah blah</p>
+                    </div>
+                    <div className="ch-info-back">
+                      <p className="smaller">A key area of focus in my design process is to ensure the best interaction for each situation to guide the user through their digital journey, as this is essential in creating engaging and effective user experiences.</p>
                     </div>
                   </div>
                 </div>
@@ -42,10 +44,11 @@ class Services extends Component {
               <li>
                 <div className="ch-item">
                   <div className="ch-info">
-                    <div className="ch-info-front ch-img-3"></div>
-                    <div className="ch-info-back">
+                    <div className="ch-info-front">
                       <h3>FOCUSED DEVELOPMENT</h3>
-                      <p>blah blah</p>
+                    </div>
+                    <div className="ch-info-back">
+                      <p>It’s important to discover why you have or want a website in the first place and what you are hoping to achieve with it. I’ll then drill down into the finer details and establish exactly how you will measure the success of your new site.</p>
                     </div>
                   </div>
                 </div>
@@ -53,10 +56,11 @@ class Services extends Component {
               <li>
                 <div className="ch-item">
                   <div className="ch-info">
-                    <div className="ch-info-front ch-img-3"></div>
-                    <div className="ch-info-back">
+                    <div className="ch-info-front">
                       <h3>SOCIAL MEDIA INTERGRATION</h3>
-                      <p>blah blah</p>
+                    </div>
+                    <div className="ch-info-back">
+                      <p>Social Media has grown rapidly in popularity, but while these tools are easily accessed, planning is paramount. The use of tools like Twitter and Facebook can enhance your marketing efforts, with your website acting as your hub.</p>
                     </div>
                   </div>
                 </div>
