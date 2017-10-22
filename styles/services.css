@@ -117,21 +117,25 @@
 	-o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
 	-ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
 	transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
-	background: #86dae4;
+	/*background: #86dae4;*/
 	opacity: 0;
 	color:#000;
 }
 
 .ch-img-1 { 
-	background-image: url(../CircleHoverEffects/images/19.jpg);
+	background-image: url(../CircleHoverEffects/images/services-1.png);
 }
 
 .ch-img-2 { 
-	background-image: url(../CircleHoverEffects/images/20.jpg);
+	background-image: url(../CircleHoverEffects/images/services-2.png);
 }
 
 .ch-img-3 { 
-	background-image: url(../CircleHoverEffects/images/21.jpg);
+	background-image: url(../CircleHoverEffects/images/services-3.png);
+}
+
+.ch-img-4 { 
+	background-image: url(../CircleHoverEffects/images/services-4.png);
 }
 
 .ch-info h3 {
@@ -148,7 +152,7 @@
 	color: #000;
 	padding: 10px 5px;
 	/*font-style: italic;*/
-	margin: 110px 10px;
+	margin: 220px 10px;
 	font-size: 15px;
 }
 
@@ -156,8 +160,8 @@
 	color: #000;
 	padding: 10px 5px;
 	/*font-style: italic;*/
-	margin: 110px 10px;
-	font-size: 15px;
+	margin: 220px 10px;
+	font-size: 15px; 
 }
 
 .ch-info p a {
@@ -194,7 +198,7 @@
 	-ms-transform: rotate3d(1,0,0,0deg);
 	transform: rotate3d(1,0,0,0deg);
 	opacity: 1;
-	border: 1px solid #000;
+	/*border: 1px solid #000;*/
 }
 
 .ch-info-back h3 {color: #000;border-bottom: 1px solid #000;}
