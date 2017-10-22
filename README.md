@@ -9,11 +9,10 @@ npm start
 
 <u>To do</u>:
 
-1. Services =======
-1. Services (find images and add copy or maybe make circles bigger and title to front and text under flip effect???)
-2. Portolio companies (use CircleHoverEffects???)
-3. Portfolio case studies - e.g - http://www.james-waller.co.uk/loyal-subscribers/
-4. More on about me.
-5. Clean up unused code (maybe use css variables if time).
+1. Portolio companies (use CircleHoverEffects???)
+2. Portfolio case studies - e.g - http://www.james-waller.co.uk/loyal-subscribers/
+3. More on about me (emojis??? beer, globe, football, etc).
+4. Clean up unused code (maybe use css variables if time).
+5. Decide wether to use images or color backgrounds on flip effect for services.
 
 Maybe add some sort off novelty landing page before loading CV???
