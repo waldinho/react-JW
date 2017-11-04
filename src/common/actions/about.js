@@ -14,13 +14,6 @@ export function invalidateRepos(repos) {
   };
 }
 
-export function fetchRepos() {
-  return {
-    type: REPOS_GET,
-    promise: request.get(`https://api.github.com/users/caljrimmer/repos`)
-  }
-}
-
 function shouldFetchRepos(state) {
   const repos = state.repos.results;
   if (!repos.length) {
