@@ -218,4 +218,8 @@ a.more {text-transform:uppercase;font-size:12px;text-decoration: none;padding:10
 
 .no-more {display:none}
 
+a.case {text-transform:uppercase;font-size:12px;text-decoration: none;padding:10px;}
+
+.no-case {display:none}
+
 .larger-arrow{font-size:17px;}
