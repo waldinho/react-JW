@@ -9,6 +9,54 @@ export function getPortfolio() {
 					company : 'independent',
 					image : 'pt-info-front pt-img-1',
     			skills : 'React, backbone, D3'
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'independent',
+					image : 'pt-info-front pt-img-1',
+    			skills : 'React, backbone, D3'
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'independent',
+					image : 'pt-info-front pt-img-1',
+    			skills : 'React, backbone, D3'
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'independent',
+					image : 'pt-info-front pt-img-1',
+    			skills : 'React, backbone, D3'
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'independent',
+					image : 'pt-info-front pt-img-1',
+    			skills : 'React, backbone, D3'
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'independent',
+					image : 'pt-info-front pt-img-1',
+    			skills : 'React, backbone, D3'
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'independent',
+					image : 'pt-info-front pt-img-1',
+    			skills : 'React, backbone, D3'
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'independent',
+					image : 'pt-info-front pt-img-1',
+    			skills : 'React, backbone, D3'
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'independent',
+					image : 'pt-info-front pt-img-1',
+    			skills : 'React, backbone, D3'
     		},
     		{
     			title : 'Back End Developer',
