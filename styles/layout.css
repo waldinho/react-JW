@@ -68,13 +68,14 @@ h6 {
  */
 
 .masthead {
-    padding-top: 1rem;
+    padding-top: 0.9rem;
     padding-bottom: 1rem;
     margin-bottom: 3rem;
     background: #000;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
     position: fixed;
     width:100%;
+    z-index: 1;
 }
 
 .masthead-title {
