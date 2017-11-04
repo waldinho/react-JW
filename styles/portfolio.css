@@ -177,7 +177,7 @@
 	padding: 10px 0px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	margin: 0 20px;
+	margin: 0 18px;
 	font-size: 12px;
     border-top: 1px solid rgba(255,255,255,0.5);
     height:85px;
@@ -214,7 +214,7 @@
 	transform: rotate3d(0,1,0,-180deg);
 }
 
-a.more {text-transform:uppercase;font-size:12px;text-decoration: none;}
+a.more {text-transform:uppercase;font-size:12px;text-decoration: none;padding:10px;}
 
 .no-more {display:none}
 
