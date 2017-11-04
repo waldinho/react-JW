@@ -140,19 +140,20 @@
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: 13px;
+	font-size: 12px;
 	margin: 0 15px;
-	padding: 40px 0 0 0;
-	height: 80px;
+	padding: 35px 0 0 0;
+	height: 75px;
 
 }
 
 .pt-info p {
 	color: #fff;
-	padding: 10px 5px;
-	font-style: italic;
-	margin: 0 30px;
-	font-size: 11px;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0 20px;
+	font-size: 12px;
 	border-top: 1px solid rgba(255,255,255,0.5);
 }
 

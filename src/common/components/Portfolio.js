@@ -21,7 +21,7 @@ class Portfolio extends Component {
 							<div className="pt-info-back">
 								{/*<h3>RESPONSIVE WEB DESIGN</h3>*/}
 								<h3>{role.title}</h3>
-								<p className="smaller">{role.skills}.</p>
+								<p className="smaller">{role.alttitle}</p>
 							</div>	
 							</div>
 						</div>

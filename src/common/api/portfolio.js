@@ -5,64 +5,58 @@ export function getPortfolio() {
     	classname : 'companies',
     	roles : [
     		{
-    			title : 'Front End Developer',
+					title : 'Front End Developer',
 					company : 'independent',
 					image : 'pt-info-front pt-img-1',
-    			skills : 'React, backbone, D3'
+					alttitle : 'UX Designer'
 				},
 				{
     			title : 'Front End Developer',
 					company : 'independent',
-					image : 'pt-info-front pt-img-1',
-    			skills : 'React, backbone, D3'
+					image : 'pt-info-front pt-img-2',
+    			alttitle : 'UX Designer'
 				},
 				{
     			title : 'Front End Developer',
-					company : 'independent',
+					company : 'ebay',
 					image : 'pt-info-front pt-img-1',
-    			skills : 'React, backbone, D3'
 				},
 				{
     			title : 'Front End Developer',
-					company : 'independent',
-					image : 'pt-info-front pt-img-1',
-    			skills : 'React, backbone, D3'
+					company : 'stub-hub',
+					image : 'pt-info-front pt-img-2',
 				},
 				{
     			title : 'Front End Developer',
-					company : 'independent',
+					company : 'kurt-gieger',
 					image : 'pt-info-front pt-img-1',
-    			skills : 'React, backbone, D3'
 				},
 				{
     			title : 'Front End Developer',
-					company : 'independent',
-					image : 'pt-info-front pt-img-1',
-    			skills : 'React, backbone, D3'
+					company : 'shell',
+					image : 'pt-info-front pt-img-2',
+    			alttitle : 'Video Editor'
 				},
 				{
     			title : 'Front End Developer',
-					company : 'independent',
+					company : 'tradefair',
 					image : 'pt-info-front pt-img-1',
-    			skills : 'React, backbone, D3'
 				},
 				{
     			title : 'Front End Developer',
-					company : 'independent',
-					image : 'pt-info-front pt-img-1',
-    			skills : 'React, backbone, D3'
+					company : 'betvictor',
+					image : 'pt-info-front pt-img-2',
 				},
 				{
     			title : 'Front End Developer',
-					company : 'independent',
+					company : 'lcg',
 					image : 'pt-info-front pt-img-1',
-    			skills : 'React, backbone, D3'
     		},
     		{
-    			title : 'Back End Developer',
-					company : 'evening-standard',
+    			title : 'Front End Developer',
+					company : 'the-smalls',
 					image : 'pt-info-front pt-img-2',
-    			skills : 'Node, MongoDB, Webpack'
+					alttitle : 'UX Designer'
     		}
     	]
     }
