@@ -201,10 +201,54 @@
 	/*border: 1px solid #000;*/
 }
 
+.mobile {display:none}
+.no-mobile {display:block;}
+
 .ch-info-back h3 {color: #000;border-bottom: 1px solid #000;}
 
 @media (max-width: 40em) {
 	.services {
 		width:100%;
 	}
+	.no-mobile {margin: 210px 0px !important;}
+	.mobile {display:block;margin: 100px 0px !important;}
+	.ch-info {
+		height: 200px;
+	}
+	.ch-grid li {
+		height: 420px;
+	}
+	.ch-info p.smaller {
+		margin: 100px 10px;
+	}
+	.ch-item:hover .ch-info-front {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		transform: none;
+		opacity: 0;
+		color: #fff;
+	}
+	
+	.ch-item:hover .ch-info-back {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		transform: none;
+		opacity: 1;
+		/*border: 1px solid #000;*/
+	}
+	.ch-info .ch-info-back {
+		-webkit-transform: none;
+		-moz-transform: none;
+		-o-transform: none;
+		-ms-transform: none;
+		transform: none;
+		/*background: #86dae4;*/
+		opacity: 0;
+		color:#000;
+	}
+	
 }
