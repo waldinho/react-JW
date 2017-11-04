@@ -179,7 +179,8 @@
 	letter-spacing: 2px;
 	margin: 0 20px;
 	font-size: 12px;
-	border-top: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    height:85px;
 }
 
 .pt-info p a {
@@ -212,3 +213,9 @@
 	-ms-transform: rotate3d(0,1,0,-180deg);
 	transform: rotate3d(0,1,0,-180deg);
 }
+
+a.more {text-transform:uppercase;font-size:12px;text-decoration: none;}
+
+.no-more {display:none}
+
+.larger-arrow{font-size:17px;}
