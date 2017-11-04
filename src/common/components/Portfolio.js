@@ -22,7 +22,8 @@ class Portfolio extends Component {
 								{/*<h3>RESPONSIVE WEB DESIGN</h3>*/}
 								<h3>{role.title}</h3>
 								<p>{role.alttitle}</p>
-								<a href="#" className={role.more}><span className="larger-arrow">></span>Case study</a>
+								<a href="#" className={role.case}><span className="larger-arrow">></span>Case study</a>
+								<a href="#" className={role.more}><span className="larger-arrow">></span>More</a>
 							</div>	
 							</div>
 						</div>
