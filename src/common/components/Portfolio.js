@@ -40,7 +40,7 @@ class Portfolio extends Component {
 					<div className="white-bg"> 
 					<div className="main-content no-pad">
 					{/*<div className="title-circle"></div>*/}
-					<div className="title-services"><h2>Companies</h2></div>
+					<div className="title-services"><h2>Portfolio</h2></div>
 					</div>
 					</div>
 				</div>
