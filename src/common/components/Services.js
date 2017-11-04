@@ -20,10 +20,12 @@ class Services extends Component {
               <li>
                 <div className="ch-item">				
                   <div className="ch-info">
-                    <div className="ch-info-front ch-img-1"></div>
-                    <div className="ch-info-back">
+                    <div className="ch-info-front">
                       <h3>RESPONSIVE WEB DESIGN</h3>
-                      <p>blah blah</p>
+                    </div>
+                    <div className="ch-info-back ch-img-1">
+                      {/*<h3>RESPONSIVE WEB DESIGN</h3>*/}
+                      <p className="smaller">I have gained extensive experience designing and building many responsive websites. I have developed a personal approach to testing different solutions that brought me to design mostly in the browser.</p>
                     </div>	
                   </div>
                 </div>
@@ -31,10 +33,12 @@ class Services extends Component {
               <li>
                 <div className="ch-item">
                   <div className="ch-info">
-                    <div className="ch-info-front ch-img-2"></div>
-                    <div className="ch-info-back">
+                    <div className="ch-info-front">
                       <h3>INTERACTIVE DESIGN</h3>
-                      <p>blah blah</p>
+                    </div>
+                    <div className="ch-info-back ch-img-2">
+                      {/*<h3>INTERACTIVE DESIGN</h3>*/}
+                      <p className="smaller">A key area of focus in my design process is to ensure the best interaction for each situation to guide the user through their digital journey, as this is essential in creating engaging and effective user experiences.</p>
                     </div>
                   </div>
                 </div>
@@ -42,10 +46,12 @@ class Services extends Component {
               <li>
                 <div className="ch-item">
                   <div className="ch-info">
-                    <div className="ch-info-front ch-img-3"></div>
-                    <div className="ch-info-back">
+                    <div className="ch-info-front">
                       <h3>FOCUSED DEVELOPMENT</h3>
-                      <p>blah blah</p>
+                    </div>
+                    <div className="ch-info-back ch-img-3">
+                      {/*<h3>FOCUSED DEVELOPMENT</h3>*/}
+                      <p>It’s important to discover why you have or want a website in the first place and what you are hoping to achieve with it. I’ll then drill down into the finer details and establish exactly how you will measure the success of your new site.</p>
                     </div>
                   </div>
                 </div>
@@ -53,23 +59,25 @@ class Services extends Component {
               <li>
                 <div className="ch-item">
                   <div className="ch-info">
-                    <div className="ch-info-front ch-img-3"></div>
-                    <div className="ch-info-back">
+                    <div className="ch-info-front">
                       <h3>SOCIAL MEDIA INTERGRATION</h3>
-                      <p>blah blah</p>
+                    </div>
+                    <div className="ch-info-back ch-img-4">
+                      {/*<h3>SOCIAL MEDIA INTERGRATION</h3>*/}
+                      <p>Social Media has grown rapidly in popularity, but while these tools are easily accessed, planning is paramount. The use of tools like Twitter and Facebook can enhance your marketing efforts, with your website acting as your hub.</p>
                     </div>
                   </div>
                 </div>
               </li>
             </ul>
           </section>
-          <div className="posts">
+          {/*<div className="posts">
           <div className="white-bg"> 
             <div className="main-content pad-50">
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
           </div>
-	      </div>
+	      </div>*/}
       </div>
     );
   }

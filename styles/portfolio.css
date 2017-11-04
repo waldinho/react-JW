@@ -1,60 +1,4 @@
-/**
-* Layout styles
-*/
-
-.portfolio_item {
-	left: right;
-    margin: 0 0 20px 0;
-    padding:20px 20px 0 20px;
-    box-shadow:1px 2px 2px #eaeaea;
-    border:1px solid #eaeaea;
-}
-
-.portfolio_item h2 {
-    font-size: 24px;
-    margin: 20px 0 20px 0;
-    text-align: right;
-    padding-top: 250px;
-    text-transform:uppercase;
-    font-weight:bold;
-}
-
-.portfolio_item h2 a {
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.portfolio_item .role_wrapper {
-    border-bottom: 1px dotted #ccc;
-    position: relative;
-    margin-bottom:20px;
-}
-
-.portfolio_item .role {
-    float: left;
-    color: #FF7575;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform:uppercase;
-    margin: 16px 10px 10px 10px;
-    opacity:0.5;
-}
-
-.portfolio_item .role_title {
-    float: right;
-    font-size: 22px;
-    font-weight: bold;
-    margin: 10px;
-    color: #FF7575;
-    line-height: 24px;
-    text-align: right;
-}
-
-.portfolio_item span.role_skills {
-    font-size: 18px;
-    color: #a6a6a6;
-}
+/*@import url('normalize.css');*/
 
 .content {
     margin-top: 72px;
@@ -70,172 +14,201 @@
     padding-top: 50px !important;
 }
 
-.content-portfolio {
-  margin-top: -30px;
-  width:100%;
-  -webkit-transition: width 0.8s;
-    transition: width 0.8s;
+.pt-grid {
+	margin: 20px auto 0 auto;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+    max-width: 800px;
+    
 }
 
-::-webkit-scrollbar { 
-    display: none;   
+.pt-grid:after,
+.pt-item:before {
+	content: '';
+    display: table;
 }
 
-figure.effect-jazz {
-	background: -webkit-linear-gradient(-45deg, #86dae4 0%,#FF7575 100%);
-	background: linear-gradient(-45deg, #86dae4 0%,#FF7575 100%);
+.pt-grid:after {
+	clear: both;
 }
 
-figure.effect-jazz img {
-	opacity: 0.9;
+.pt-grid li {
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+    margin: 10px 5px 40px 5px;
 }
-
-figure.effect-jazz figcaption::after,
-figure.effect-jazz img,
-figure.effect-jazz p {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-}
-
-figure.effect-jazz figcaption::after {
-	position: absolute;
-	top: 0;
-	left: 0;
+.pt-item {
 	width: 100%;
 	height: 100%;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
-	content: '';
-	opacity: 0;
-	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,0,1);
-	transform: rotate3d(0,0,1,45deg) scale3d(1,0,1);
-	-webkit-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
+	border-radius: 50%;
+	position: relative;
+    cursor: default;
+    /* background:#000; */
 }
 
-.grid {
-	position: relative;
-	clear: both;
-	margin: 0 auto;
-	padding: 1em 0 4em;
-	max-width: 1000px;
-	list-style: none;
-	text-align: center;
+.pt-info-wrap{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
+	top: 20px;
+	left: 20px;
+	box-shadow: 
+		0 0 0 20px rgba(255,255,255,0.2), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
+
 }
 
-/* Common style */
-.grid figure {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 10px 1%;
-	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
-	width: 48%;
-	height: auto;
-	/*background: #FF7575;*/
-	text-align: center;
-	cursor: pointer;
+.pt-info{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+    border: 1px solid #888;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+		
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
 }
 
-.grid figure img {
-	position: relative;
+.pt-info > div {
 	display: block;
-	min-height: 320px;
-	max-width: 320px;
-	opacity: 0.8;
-}
-
-.grid figure figcaption {
-	padding: 2em;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.25em;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+    background-size:130px;
+    background-repeat: no-repeat;
 	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 
-.grid figure figcaption::before,
-.grid figure figcaption::after {
-	pointer-events: none;
+.pt-info .pt-info-back {
+	-webkit-transform: rotate3d(0,1,0,180deg);
+	-moz-transform: rotate3d(0,1,0,180deg);
+	-o-transform: rotate3d(0,1,0,180deg);
+	-ms-transform: rotate3d(0,1,0,180deg);
+	transform: rotate3d(0,1,0,180deg);
+	
+	background: #000;
 }
 
-.grid figure figcaption,
-.grid figure figcaption > a {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.pt-img-1 { 
+	background-image: url(../CircleHoverEffects/images/company-1.png);
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.grid figure figcaption > a {
-	z-index: 1000;
-	text-indent: 200%;
-	white-space: nowrap;
-	font-size: 0;
-	opacity: 0;
+.pt-img-2 { 
+	background-image: url(../CircleHoverEffects/images/company-2.png);
 }
 
-.grid figure h2 {
-	word-spacing: -0.15em;
-	font-weight: 300;
+.pt-img-3 { 
+	background-image: url(../CircleHoverEffects/images/company-3.png);
 }
 
-.grid figure h2 span {
-	font-weight: 800;
+.pt-img-4 { 
+	background-image: url(../CircleHoverEffects/images/company-4.png);
 }
 
-.grid figure h2,
-.grid figure p {
-	margin: 0;
+.pt-img-5 { 
+	background-image: url(../CircleHoverEffects/images/company-5.png);
+}
+ 
+.pt-img-6 { 
+	background-image: url(../CircleHoverEffects/images/company-6.png);
 }
 
-.grid figure p {
+.pt-img-7 { 
+	background-image: url(../CircleHoverEffects/images/company-7.png);
+}
+
+.pt-img-8 { 
+	background-image: url(../CircleHoverEffects/images/company-8.png);
+}
+
+.pt-img-9 { 
+	background-image: url(../CircleHoverEffects/images/company-9.png);
+}
+
+.pt-img-10 { 
+	background-image: url(../CircleHoverEffects/images/company-10.png);
+} 
+
+.pt-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	margin: 0 15px;
+    padding: 40px 0 0 0;
+	height: 78px;
+
+}
+
+.pt-info p {
+	color: #fff;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0 20px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.pt-info p a {
+	display: block;
+	color: #fff;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
 	letter-spacing: 1px;
-	font-size: 68.5%;
+	padding-top: 4px;
 }
 
-
-figure.effect-jazz h2,
-figure.effect-jazz p {
-	opacity: 1;
-	-webkit-transform: scale3d(0.8,0.8,1);
-	transform: scale3d(0.8,0.8,1);
+.pt-info p a:hover {
+	color: #fff222;
+	color: rgba(255,242,34, 0.8);
 }
 
-figure.effect-jazz h2 {
-	padding-top: 26%;
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
+.pt-item:hover .pt-info-wrap {
+	box-shadow: 
+		0 0 0 0 rgba(255,255,255,0.8), 
+		inset 0 0 3px rgba(115,114, 23, 0.8);
 }
 
-figure.effect-jazz p {
-	padding: 0.3em 2em;
-	text-transform: none;
-	font-size: 0.65em;
-    line-height: 1.25em;
-	opacity: 0;
-}
-
-figure.effect-jazz:hover img {
-	opacity: 0.7;
-	-webkit-transform: scale3d(1.05,1.05,1);
-	transform: scale3d(1.05,1.05,1);
-}
-
-figure.effect-jazz:hover figcaption::after {
-	opacity: 1;
-	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
-	transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
-}
-
-figure.effect-jazz:hover h2,
-figure.effect-jazz:hover p {
-	opacity: 1;
-	-webkit-transform: scale3d(1,1,1);
-	transform: scale3d(1,1,1);
+.pt-item:hover .pt-info {
+	-webkit-transform: rotate3d(0,1,0,-180deg);
+	-moz-transform: rotate3d(0,1,0,-180deg);
+	-o-transform: rotate3d(0,1,0,-180deg);
+	-ms-transform: rotate3d(0,1,0,-180deg);
+	transform: rotate3d(0,1,0,-180deg);
 }

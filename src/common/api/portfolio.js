@@ -1,102 +1,62 @@
 export function getPortfolio() {
   return [
     {
-    	link : 'http://www.goldmansachs.com',
-    	title : 'Goldman Sachs',
-    	classname : 'goldmans',
+    	title : 'Comapnies',
+    	classname : 'companies',
     	roles : [
     		{
+					title : 'Front End Developer',
+					company : 'independent',
+					image : 'pt-info-front pt-img-1',
+					alttitle : 'UX Designer'
+				},
+				{
     			title : 'Front End Developer',
-    			skills : 'React, Backbone, D3'
+					company : 'independent',
+					image : 'pt-info-front pt-img-2',
+    			alttitle : 'UX Designer'
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'ebay',
+					image : 'pt-info-front pt-img-3',
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'stub-hub',
+					image : 'pt-info-front pt-img-4',
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'kurt-gieger',
+					image : 'pt-info-front pt-img-5',
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'shell',
+					image : 'pt-info-front pt-img-6',
+    			alttitle : 'Video Editor'
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'tradefair',
+					image : 'pt-info-front pt-img-7',
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'betvictor',
+					image : 'pt-info-front pt-img-8',
+				},
+				{
+    			title : 'Front End Developer',
+					company : 'lcg',
+					image : 'pt-info-front pt-img-9',
     		},
     		{
-    			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Webpack'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.libon.com/',
-    	title : 'Orange (Libon)',
-    	classname : 'orange',
-    	roles : [
-    		{
     			title : 'Front End Developer',
-    			skills : 'Backbone, WebRTC, FireFoxOS'
-    		},
-    		{
-    			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Grunt'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.pwul.net',
-    	title : 'Pay What You Like',
-    	classname : 'pwul',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'React, Backbone, D3'
-    		},
-    		{
-    			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Gulp'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.timeout.com/london/card',
-    	title : 'Timeout',
-    	classname : 'timeout',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.tesco.com/direct',
-    	title : 'Tesco Entertainment',
-    	classname : 'tesco',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://onlinelibrary.wiley.com',
-    	title : 'John Wiley and Sons',
-    	classname : 'wiley',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.covestor.com',
-    	title : 'Covestor',
-    	classname : 'covestor',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
-    		}
-    	]
-    },
-    {
-    	link : 'http://www.shipserv.com',
-    	title : 'ShipServ',
-    	classname : 'shipserv',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
+					company : 'the-smalls',
+					image : 'pt-info-front pt-img-10',
+					alttitle : 'UX Designer'
     		}
     	]
     }

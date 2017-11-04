@@ -10,62 +10,47 @@ class Portfolio extends Component {
 	const RoleRows = (roles) => {
 		return roles.map((role) => {
 			return (
-				/*<div key={role.title} className="role_wrapper clearfix">
-					<p className="role">Role</p>
-					<p className="role_title">{role.title}<br />
-					<span className="role_skills">{role.skills}</span></p>
-				</div>*/
-				{/*<div className="content-portfolio">
-				<div className="grid">
-					<figure className="effect-jazz">
-						<img src="assets/25.jpg" alt="img25"/>
-						<figcaption>
-							<h2>Dynamic <span>Jazz</span></h2>
-							<p>When Jazz starts to chase cars, the whole world stands still.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-					<figure className="effect-jazz">
-						<img src="assets/6.jpg" alt="img06"/>
-						<figcaption>
-							<h2>Dynamic <span>Jazz</span></h2>
-							<p>When Jazz starts to chase cars, the whole world stands still.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-				</div>
-				</div>*/}
+				
+
+					<li>
+						<div className="pt-item">				
+							<div className="pt-info">
+							<div className={role.image}>
+							
+							</div>
+							<div className="pt-info-back">
+								{/*<h3>RESPONSIVE WEB DESIGN</h3>*/}
+								<h3>{role.title}</h3>
+								<p className="smaller">{role.alttitle}</p>
+							</div>	
+							</div>
+						</div>
+					</li>
+
 			)
 		});
 	}
 
     const PortfolioRows = portfolio.map((row) => {
-    	const classname = classNames('portfolio_item','clearfix',row.classname);
+    	const classname = classNames(row.classname);
         return (
-            // <div key={row.title} className={classname}>
-				// <h2><a href={row.link} target="_blank">(visit site)</a> {row.title}</h2>
-				// {RoleRows(row.roles)}
-				<div className="content-portfolio">
-				<div className="grid">
-					<figure className="effect-jazz">
-						<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" alt="img25"/>
-						<figcaption>
-							<h2>Dynamic <span>Jazz</span></h2>
-							<p>When Jazz starts to chase cars, the whole world stands still.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-					<figure className="effect-jazz">
-						<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" alt="img06"/>
-						<figcaption>
-							<h2>Dynamic <span>Jazz</span></h2>
-							<p>When Jazz starts to chase cars, the whole world stands still.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
+            <div key={row.title} className="content-about">
+				<div className="posts">
+					<div className="white-bg"> 
+					<div className="main-content no-pad">
+					{/*<div className="title-circle"></div>*/}
+					<div className="title-services"><h2>Companies</h2></div>
+					</div>
+					</div>
 				</div>
+				<div>
+					<section className="main">
+					<ul className="pt-grid">
+						{RoleRows(row.roles)}
+					</ul>
+					</section>
 				</div>
-			// </div>
+			</div>
         )
     });
 
