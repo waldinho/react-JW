@@ -34,7 +34,7 @@ class Portfolio extends Component {
     const PortfolioRows = portfolio.map((row) => {
     	const classname = classNames(row.classname);
         return (
-            <div key={row.title} className={classname}>
+            <div key={row.title} className="content-about">
 				<div className="posts">
 					<div className="white-bg"> 
 					<div className="main-content no-pad">
@@ -43,7 +43,7 @@ class Portfolio extends Component {
 					</div>
 					</div>
 				</div>
-				<div className="content-about">
+				<div>
 					<section className="main">
 					<ul className="pt-grid">
 						{RoleRows(row.roles)}

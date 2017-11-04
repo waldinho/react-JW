@@ -46,7 +46,7 @@
 	border-radius: 50%;
 	position: relative;
     cursor: default;
-    background:#000;
+    /* background:#000; */
 }
 
 .pt-info-wrap{
@@ -80,7 +80,7 @@
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-
+    border: 1px solid #888;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -102,7 +102,8 @@
 	height: 100%;
 	border-radius: 50%;
 	background-position: center center;
-
+    background-size:130px;
+    background-repeat: no-repeat;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
@@ -121,20 +122,44 @@
 }
 
 .pt-img-1 { 
-	background-image: url(../CircleHoverEffects/images/services-1.png);
+	background-image: url(../CircleHoverEffects/images/company-1.png);
 }
 
 .pt-img-2 { 
-	background-image: url(../CircleHoverEffects/images/services-2.png);
+	background-image: url(../CircleHoverEffects/images/company-2.png);
 }
 
 .pt-img-3 { 
-	background-image: url(../CircleHoverEffects/images/services-3.png);
+	background-image: url(../CircleHoverEffects/images/company-3.png);
 }
 
 .pt-img-4 { 
-	background-image: url(../CircleHoverEffects/images/services-4.png);
+	background-image: url(../CircleHoverEffects/images/company-4.png);
 }
+
+.pt-img-5 { 
+	background-image: url(../CircleHoverEffects/images/company-5.png);
+}
+ 
+.pt-img-6 { 
+	background-image: url(../CircleHoverEffects/images/company-6.png);
+}
+
+.pt-img-7 { 
+	background-image: url(../CircleHoverEffects/images/company-7.png);
+}
+
+.pt-img-8 { 
+	background-image: url(../CircleHoverEffects/images/company-8.png);
+}
+
+.pt-img-9 { 
+	background-image: url(../CircleHoverEffects/images/company-9.png);
+}
+
+.pt-img-10 { 
+	background-image: url(../CircleHoverEffects/images/company-10.png);
+} 
 
 .pt-info h3 {
 	color: #fff;
@@ -142,8 +167,8 @@
 	letter-spacing: 2px;
 	font-size: 12px;
 	margin: 0 15px;
-	padding: 35px 0 0 0;
-	height: 75px;
+    padding: 40px 0 0 0;
+	height: 78px;
 
 }
 
