@@ -344,7 +344,7 @@ tbody tr:nth-child(odd) th {
     padding-bottom: 1rem;
     margin-bottom: 3rem;
     background: #000;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #fff;
     position: fixed;
     width:100%;
 }
