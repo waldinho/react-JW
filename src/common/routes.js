@@ -1,5 +1,6 @@
 import { Route } from "react-router";
 import React from "react";
+import { IndexRoute } from 'react-router';
 
 import App from "./containers/App";
 
@@ -16,10 +17,12 @@ import error404 from "./components/404";
 export default (
   <Route name="app" path="/" component={App}>
       <Route path="home" component={HomePage} />
-      <Route path="portfolio" component={PortfolioPage} />
+      <Route path="portfolio">
+          <IndexRoute component={PortfolioPage}/>
+          <Route path="lcg" component={LCGPage} />
+      </Route>      
       <Route path="services" component={ServicesPage} />
       <Route path="about" component={AboutPage} />
-      <Route path="portfolio/lcg" component={LCGPage} />
       <Route path="*" component={error404}/>
   </Route>
 );

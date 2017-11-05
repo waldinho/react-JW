@@ -11,7 +11,7 @@ export function getPortfolio() {
 					case : 'case',
 					image : 'pt-info-front pt-img-1',
 					alttitle : 'UX Design',
-					link : '/portfolio/independent',
+					link : 'portfolio/independent',
 				},
 				{
     			title : 'Front End Development',
@@ -20,7 +20,7 @@ export function getPortfolio() {
 					case : 'case',
 					image : 'pt-info-front pt-img-2',
 					alttitle : 'UX Design',
-					link : '/portfolio/evening-standard',
+					link : 'portfolio/evening-standard',
 				},
 				{
     			title : 'Front End Development',
@@ -28,7 +28,7 @@ export function getPortfolio() {
 					more : 'no-more',
 					case : 'case',
 					image : 'pt-info-front pt-img-3',
-					link : '/portfolio/ebay',
+					link : 'portfolio/ebay',
 				},
 				{
     			title : 'Front End Development',
@@ -36,7 +36,7 @@ export function getPortfolio() {
 					more : 'no-more',
 					case : 'case',
 					image : 'pt-info-front pt-img-4',
-					link : '/portfolio/stub-hub',
+					link : 'portfolio/stub-hub',
 				},
 				{
     			title : 'Front End Development',
@@ -44,7 +44,7 @@ export function getPortfolio() {
 					more : 'more',
 					case : 'no-case',
 					image : 'pt-info-front pt-img-5',
-					link : '/portfolio/kurt-geiger',
+					link : 'portfolio/kurt-geiger',
 				},
 				{
     			title : 'Front End Development',
@@ -53,7 +53,7 @@ export function getPortfolio() {
 					case : 'no-case',
 					image : 'pt-info-front pt-img-6',
 					alttitle : 'Video Editing',
-					link : '/portfolio/shell',
+					link : 'portfolio/shell',
 				},
 				{
     			title : 'Front End Development',
@@ -61,7 +61,7 @@ export function getPortfolio() {
 					more : 'more',
 					case : 'no-case',
 					image : 'pt-info-front pt-img-7',
-					link : '/portfolio/tradefair',
+					link : 'portfolio/tradefair',
 				},
 				{
     			title : 'Front End Development',
@@ -69,7 +69,7 @@ export function getPortfolio() {
 					more : 'more',
 					case : 'no-case',
 					image : 'pt-info-front pt-img-8',
-					link : '/portfolio/betvictor',
+					link : 'portfolio/betvictor',
 				},
 				{
     			title : 'Front End Development',
@@ -77,7 +77,7 @@ export function getPortfolio() {
 					more : 'more',
 					case : 'no-case',
 					image : 'pt-info-front pt-img-9',
-					link : '/portfolio/lcg',
+					link : 'portfolio/lcg',
     		},
     		{
     			title : 'Front End Development',
@@ -86,7 +86,7 @@ export function getPortfolio() {
 					case : 'no-case',
 					image : 'pt-info-front pt-img-10',
 					alttitle : 'UX Design',
-					link : '/portfolio/the-smalls',
+					link : 'portfolio/the-smalls',
     		}
     	]
     }
