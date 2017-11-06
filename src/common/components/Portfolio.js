@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { getPortfolio } from '../api/portfolio';
+import { Link } from 'react-router';
 import classNames from 'classnames';
 
 class Portfolio extends Component {
@@ -22,8 +23,8 @@ class Portfolio extends Component {
 								{/*<h3>RESPONSIVE WEB DESIGN</h3>*/}
 								<h3>{role.title}</h3>
 								<p>{role.alttitle}</p>
-								<a href="#" className={role.case}><span className="larger-arrow">></span>Case study</a>
-								<a href="#" className={role.more}><span className="larger-arrow">></span>More</a>
+								<Link to={role.link} className={role.case}><span className="larger-arrow">></span>Case study</Link>
+								<Link to={role.link} className={role.more}><span className="larger-arrow">></span>More</Link>
 							</div>	
 							</div>
 						</div>
