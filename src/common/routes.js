@@ -43,4 +43,4 @@ export default (
       <Route path="about" component={AboutPage} />
       <Route path="*" component={error404}/>
   </Route>
-);
+); 
