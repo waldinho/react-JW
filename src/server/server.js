@@ -16,7 +16,6 @@ import routes from '../common/routes';
 import packagejson from '../../package.json';
 
 
-
 const app = express();
 const renderFullPage = (html, initialState) => {
   return `
