@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import classNames from 'classnames';
+import { Link } from 'react-router';
 
 
 class Services extends Component {
