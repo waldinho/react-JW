@@ -259,7 +259,7 @@
 	}
 }
 
-@media only screen and (min-width:481px) and (max-width:768px) {
+@media only screen and (min-width:481px) and (max-width:1164px) {
 	.no-mobile {margin: 235px 0px !important;}
 	.mobile {display:block;margin: 120px 0px !important;}
 	.ch-grid li {
@@ -306,7 +306,10 @@
 		opacity: 0;
 		color:#000;
 	}
-	.icon-wrap {
-		padding: 10px 0 !important;
+}
+
+@media only screen and (min-width:1165px) and (max-width:1284px) {
+	.ch-grid li {
+		margin: 0 5px 220px 5px;
 	}
 }
