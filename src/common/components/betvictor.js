@@ -1,15 +1,15 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router';
 
 
-class Services extends Component {
+class Portfolio extends Component {
 
   render () {
     return (
       <div className="content-about">
       	<div className="posts">
-	   <div className="white-bg"> 
+	          <div className="white-bg"> 
               <div className="main-content no-pad">
                 {/*<div className="title-circle"></div>*/}
                 <div className="title-services"><h2>BetVictor</h2></div>
@@ -24,4 +24,4 @@ class Services extends Component {
   }
 }
 
-export default Services;
+export default Portfolio;

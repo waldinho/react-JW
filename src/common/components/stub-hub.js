@@ -1,9 +1,9 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router';
 
 
-class Services extends Component {
+class Portfolio extends Component {
 
   render () {
     return (
@@ -24,4 +24,4 @@ class Services extends Component {
   }
 }
 
-export default Services;
+export default Portfolio;
