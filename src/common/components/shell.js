@@ -1,4 +1,6 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import { getPortfolio } from '../api/portfolio';
+import { Link } from 'react-router';
 import classNames from 'classnames';
 
 

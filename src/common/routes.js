@@ -38,7 +38,7 @@ export default (
           <Route path="betvictor" component={BetVictorPage} />
           <Route path="lcg" component={LCGPage} />
           <Route path="the-smalls" component={TheSmallsPage} />
-      </Route>      
+      </Route>
       <Route path="services" component={ServicesPage} />
       <Route path="about" component={AboutPage} />
       <Route path="*" component={error404}/>
