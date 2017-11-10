@@ -121,6 +121,17 @@
 	background: #000;
 }
 
+.company-image {
+	height: 130px;
+	width:130px;
+	margin: 0 auto;
+	background-position: center center;
+    background-size:130px;
+    background-repeat: no-repeat;
+}
+
+.center {margin: 0 auto;text-align:center;}
+
 .pt-img-1 { 
 	background-image: url(../CircleHoverEffects/images/company-1.png);
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Loader from './layout/Loader';
 
 class Home extends Component {
 

@@ -25,8 +25,8 @@ import error404 from "./components/404";
 
 export default (
   <Route name="app" path="/" component={App}>
-      <Route path="home" component={HomePage} />
-      <Route path="portfolio">
+      <Route path="/home" component={HomePage} />
+      <Route path="/portfolio">
           <IndexRoute component={PortfolioPage}/>
           <Route path="independent" component={IndependentPage} />
           <Route path="evening-standard" component={StandardPage} />
@@ -38,9 +38,9 @@ export default (
           <Route path="betvictor" component={BetVictorPage} />
           <Route path="lcg" component={LCGPage} />
           <Route path="the-smalls" component={TheSmallsPage} />
-      </Route>      
-      <Route path="services" component={ServicesPage} />
-      <Route path="about" component={AboutPage} />
+      </Route>
+      <Route path="/services" component={ServicesPage} />
+      <Route path="/about" component={AboutPage} />
       <Route path="*" component={error404}/>
   </Route>
 ); 
