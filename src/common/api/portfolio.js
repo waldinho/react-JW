@@ -56,7 +56,7 @@ export function getPortfolio() {
 					link : 'portfolio/shell',
 				},
 				{
-    			title : 'Front End Development',
+					title : 'Front End Development',
 					company : 'tradefair',
 					more : 'more',
 					case : 'no-case',
@@ -78,8 +78,8 @@ export function getPortfolio() {
 					case : 'no-case',
 					image : 'pt-info-front pt-img-9',
 					link : 'portfolio/lcg',
-    		},
-    		{
+    			},
+    			{
     			title : 'Front End Development',
 					company : 'the-smalls',
 					more : 'more',

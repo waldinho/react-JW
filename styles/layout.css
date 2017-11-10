@@ -298,6 +298,12 @@ a.sidebar-nav-item:focus {
     transition: width 0.5s;
 }
 
+.open .white-bg2 {
+    width:76%;
+    -webkit-transition: width 0.5s; /* Safari */
+    transition: width 0.5s;
+}
+
 .open .main {
     width:76%;
     -webkit-transition: width 0.5s; /* Safari */

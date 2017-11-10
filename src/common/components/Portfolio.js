@@ -5,14 +5,23 @@ import classNames from 'classnames';
 
 class Portfolio extends Component {
 
+  constructor(props) {
+		super(props);
+	  }
+	
+  componentDidMount() {
+		this.props.fetchReposIfNeeded();
+	  }
+
   render() {
 
   	const portfolio = getPortfolio();
 	const RoleRows = (roles) => {
 		return roles.map((role) => {
-			return (
-				
 
+			
+			
+			return (
 					<li>
 						<div className="pt-item">				
 							<div className="pt-info">
