@@ -9,15 +9,15 @@ class Services extends Component {
     return (
       <div className="content-about">
       	<div className="posts">
-						<div className="white-bg"> 
+						<div className="white-bg2"> 
               <div className="main-content no-pad">
-                {/*<div className="title-circle"></div>*/}
-                <div className="title-services"><h2>The Smalls</h2></div>
+              <div className="company-image pt-img-10"></div>
+              <div className="center"><Link to="/portfolio" className="more"><span className="larger-arrow">&gt;</span>Back</Link></div>
                 <div className="main-content pad-50">
-                  <p>In this varied role I was exposed to all types of development work as I was the sole internal developer at The Smalls. I primary worked on the front end of The Smalls' website but have also experienced working with thier server side technologies, from database administration using MySQL and phpMyAdmin to full on server migration. The Smalls' websiste was CMS drive (Drupal) and I was given a large say in the look and feel of the website as well as writing documentation and bug fixing. This role was predominantly web based but I also developed applications and tools for internal use as well.</p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 </div>
               </div>
-          </div>
+            </div>
         </div>
       </div>
     );
