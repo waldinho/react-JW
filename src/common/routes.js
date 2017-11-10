@@ -5,11 +5,12 @@ import { IndexRoute } from 'react-router';
 import App from "./containers/App";
 
 //Redux Smart
-import AboutPage from "./containers/AboutPage";
+
 import HomePage from "./containers/HomePage";
 
 //Redux Dumb
 import PortfolioPage from "./components/Portfolio";
+import AboutPage from "./components/About";
 import ServicesPage from "./components/Services";
 import IndependentPage from "./components/independent";
 import StandardPage from "./components/standard";

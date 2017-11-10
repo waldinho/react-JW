@@ -1,19 +1,8 @@
-import React, { Component, PropTypes } from 'react';
-import { connect } from 'react-redux';
-
-import Loader from './layout/Loader';
-
+import React, { Component } from 'react';
+import classNames from 'classnames';
 class About extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  componentDidMount() {
-    this.props.fetchReposIfNeeded();
-  }
 
   render () {
-    const { results, isFetching, lastUpdated, error } = this.props;
     return (
       <div className="content-about">
 
@@ -34,11 +23,5 @@ class About extends Component {
     );
   }
 }
-
-About.propTypes = {
-  results: PropTypes.array.isRequired,
-  error: PropTypes.object.isRequired,
-  isFetching: PropTypes.bool.isRequired
-};
 
 export default About;
