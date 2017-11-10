@@ -123,10 +123,10 @@
 
 .company-image {
 	height: 130px;
-	width:130px;
+	width:200px;
 	margin: 0 auto;
 	background-position: center center;
-    background-size:130px;
+    background-size:200px;
     background-repeat: no-repeat;
 }
 
