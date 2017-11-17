@@ -127,7 +127,7 @@
 	margin: 0 auto;
 	background-position: center center;
     background-size:200px;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 
 .center {margin: 0 auto;text-align:center;}
