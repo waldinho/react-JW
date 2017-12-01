@@ -14,6 +14,5 @@ npm start
 3. More on about me (emojis??? beer, globe, football, etc).
 4. Fix wierd server error bug. 
 5. Loading spinner??
-6. Clean up unused code (maybe use css variables if time).
-
-Maybe add some sort off novelty landing page before loading CV???
+6. Maybe add some sort off novelty landing page before loading CV???
+7. Clean up unused code (maybe use css variables if time).
