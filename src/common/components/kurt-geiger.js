@@ -14,7 +14,8 @@ class KurtGeiger extends Component {
               <div className="company-image pt-img-5"></div>
               <div className="center"><Link to="/portfolio" className="more"><span className="larger-arrow">&gt;</span>Back</Link></div>
                 <div className="main-content pad-50">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <p>This particular work for Kurt Gieger was landed through a freelance opportunity. I was assined the job of re-working the front end of thier careers section on thier website inline with thier new branding. I was allowed access to this particular area of the repo in order to make the changes.</p>
+                  <p>The actual task it self was quite straight forward and jut involved me matching the PSD's provided to to front end but at the time I was thrilled to work with such a huge company such as Kurt Geiger and promptly completed the task well within the deadline and to a very high standard where all involved were very happy with the end product.</p>
                 </div>
               </div>
           </div>
