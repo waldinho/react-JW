@@ -84,10 +84,10 @@
 }
 
 .abt-grid li {
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	display: inline-block;
-	margin: 0px 30px;
+	margin: 0px 10px;
 }
 
 .abt-item {
@@ -134,28 +134,33 @@
 
 
 .abt-img-1 { 
-    background-image: url(../styles/assets/beach.png);
-    background-size:100px;
+    background-image: url(../styles/assets/beach.jpg);
+    background-size:120px;
 }
 
 .abt-img-2 { 
-    background-image: url(../styles/assets/scuba.jpg);
-    background-size:100px;
+    background-image: url(../styles/assets/scuba.jpeg);
+    background-size:120px;
 }
 
 .abt-img-3 { 
-    background-image: url(../styles/assets/footy.png);
-    background-size:100px;
+    background-image: url(../styles/assets/footy.jpg);
+    background-size:120px;
 }
 
 .abt-img-4 { 
     background-image: url(../styles/assets/music.jpg);
-    background-size:100px;
+    background-size:120px;
 }
 
 .abt-img-5 { 
-    background-image: url(../styles/assets/beer.png);
-    background-size:100px;
+    background-image: url(../styles/assets/beer.jpg);
+    background-size:120px;
+}
+
+.abt-img-6 { 
+    background-image: url(../styles/assets/boxing.jpg);
+    background-size:120px;
 }
 
 
@@ -164,5 +169,38 @@
 	.repos {
 		width:100%;
 	}
+}
+
+@media only screen and (max-width: 859px) and (min-width: 481px) {
+    .abt-grid li {
+        width: 100px;
+        height: 100px;
+        margin: 0px 8px;
+    }
+    .abt-img-1 { 
+        background-size:100px;
+    }
+    
+    .abt-img-2 { 
+
+        background-size:100px;
+    }
+    
+    .abt-img-3 { 
+        background-size:100px;
+    }
+    
+    .abt-img-4 { 
+        background-size:100px;
+    }
+    
+    .abt-img-5 { 
+       background-size:100px;
+    }
+    
+    .abt-img-6 { 
+
+        background-size:100px;
+    }
 }
 

@@ -19,31 +19,49 @@ class About extends Component {
                   <ul className="abt-grid">
                     <li>
                       <div className="abt-item">				
-                        <div className="abt-info abt-img-1">	
+                        <div className="abt-info">
+                          <div className="abt-img-1">
+                          </div>	
                         </div>
                       </div>
                     </li>
                     <li>
                       <div className="abt-item">				
-                        <div className="abt-info abt-img-2">
+                        <div className="abt-info">
+                          <div className="abt-img-2">
+                          </div>	
                         </div>
                       </div>
                     </li>
                     <li>
                       <div className="abt-item">				
-                        <div className="abt-info abt-img-3">
+                        <div className="abt-info">
+                          <div className="abt-img-3">
+                          </div>	
                         </div>
                       </div>
                     </li>
                     <li>
                       <div className="abt-item">				
-                        <div className="abt-info abt-img-4">
+                        <div className="abt-info">
+                          <div className="abt-img-4">
+                          </div>	
                         </div>
                       </div>
                     </li>
                     <li>
                       <div className="abt-item">				
-                        <div className="abt-info abt-img-5">
+                        <div className="abt-info">
+                          <div className="abt-img-5">
+                          </div>	
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info">
+                          <div className="abt-img-6">
+                          </div>	
                         </div>
                       </div>
                     </li>
