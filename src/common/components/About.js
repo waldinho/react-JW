@@ -16,6 +16,38 @@ class About extends Component {
                   <p>I live in London, after graduating as a Bachelor of Multimedia Technology from Leeds Metropolitan University in 2006. Since then I have enjoyed working in web design and development for over 7 years.</p>
 
                   <p>I like creating unique clean sites that are easy to understand and navigate. All my works comply with web standards, use the latest industry techniques and are hand coded.</p></div>
+                  <ul className="abt-grid">
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info abt-img-1">	
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info abt-img-2">
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info abt-img-3">
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info abt-img-4">
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info abt-img-5">
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
              </div>
 	      </div>
 
