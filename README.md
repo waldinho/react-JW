@@ -11,7 +11,7 @@ npm start
 
 1. Portfolio case studies - e.g - http://www.james-waller.co.uk/loyal-subscribers/
 2. Maybe change BetVictor for InterTrader?? Hmmm....
-3. More on about me, not sure about emojis, look at some other images or icons, emojis look a bit tacky.
+3. More on about me, maybe make pictures black and white and then change to color on hover???
 4. Fix wierd server error bug. 
 5. Loading spinner??
 6. Maybe add some sort off novelty landing page before loading CV???
