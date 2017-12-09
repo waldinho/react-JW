@@ -130,7 +130,7 @@
 	background-repeat: no-repeat;
 }
 
-.center {margin: 0 auto;text-align:center;}
+.center {margin: 0 auto;text-align:center;margin-top: -10px;}
 
 .pt-img-1 { 
 	background-image: url(../CircleHoverEffects/images/company-1.png);
