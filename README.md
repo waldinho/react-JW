@@ -7,7 +7,7 @@ npm install
 npm start
 
 
-<u>To do</u>:
+<u>To do as of 15/12/2017</u>:
 
 1. Portfolio case studies - e.g - http://www.james-waller.co.uk/loyal-subscribers/
 2. Maybe change BetVictor for InterTrader?? Hmmm....
