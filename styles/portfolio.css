@@ -234,3 +234,11 @@ a.case {text-transform:uppercase;font-size:12px;text-decoration: none;padding:10
 .no-case {display:none}
 
 .larger-arrow{font-size:17px;}
+
+.euro-2016 { 
+	background-image: url(../styles/assets/euro-2016.png);
+	width: 800px;
+	height:1300px;
+	background-size: cover;
+	margin:0 0 30px 0;
+} 
