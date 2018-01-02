@@ -7,10 +7,10 @@ npm install
 npm start
 
 
-<u>To do</u>:
+<u>To do as of 20/12/2017</u>:
 
 1. Portfolio case studies - e.g - http://www.james-waller.co.uk/loyal-subscribers/
-2. Maybe change BetVictor for InterTrader?? Hmmm....
+2. Maybe change BetVictor for InterTrader??
 3. More on about me, still not sure about images, will do for now but have a think about something else???
 4. Fix wierd server error bug. 
 5. Loading spinner??
