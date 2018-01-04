@@ -279,7 +279,7 @@ a.lp-link:hover {
 .tabs {width:100%; text-align: center;}
 
 a.tab {
-	border:1px solid #000;
+	border:1px solid #666;
 	padding: 7px 10px 5px 10px;
 	margin: 0 20px;
 	text-decoration:none;
@@ -291,3 +291,13 @@ a.active-tab {
 	background: #FF7575;
 	color:#fff
 }
+
+.es-new { 
+	background-image: url(../styles/assets/es-new.jpg);
+	width:100%;
+	height:8093px;
+	background-size: cover;
+	margin:0 auto;
+	margin-bottom:30px;
+	margin-top:30px;
+} 
