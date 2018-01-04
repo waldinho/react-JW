@@ -276,7 +276,7 @@ a.lp-link:hover {
 	color: #FF7575;
 }
 
-.tabs {width:100%; text-align: center;}
+.tabs {width:100%; text-align: center;padding: 20px 0 15px 0;}
 
 a.tab {
 	border:1px solid #666;
