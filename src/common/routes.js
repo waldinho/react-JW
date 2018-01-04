@@ -14,6 +14,7 @@ import AboutPage from "./components/About";
 import ServicesPage from "./components/Services";
 import IndependentPage from "./components/independent";
 import StandardPage from "./components/standard";
+import StandardAfterPage from "./components/standard-after";
 import EbayPage from "./components/ebay";
 import StubHubPage from "./components/stub-hub";
 import KurtGeigerPage from "./components/kurt-geiger";
@@ -31,6 +32,7 @@ export default (
           <IndexRoute component={PortfolioPage}/>
           <Route path="independent" component={IndependentPage} />
           <Route path="evening-standard" component={StandardPage} />
+          <Route path="evening-standard-after" component={StandardAfterPage} />
           <Route path="ebay" component={EbayPage} />
           <Route path="stub-hub" component={StubHubPage} />
           <Route path="kurt-geiger" component={KurtGeigerPage} />
