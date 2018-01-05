@@ -268,7 +268,6 @@ a.case {text-transform:uppercase;font-size:12px;text-decoration: none;padding: 1
 
 a.lp-link {
 	margin: 0 0 30px 0;
-	color:#000;
 	text-decoration:none;
 }
 
@@ -311,3 +310,13 @@ a.active-tab {
 	margin-bottom:30px;
 	margin-top:10px;
 } 
+
+a.link-indy {text-decoration:none;}
+
+.indy-sub{
+	background-image: url(../styles/assets/indy-sub.png);
+	width:100%;
+	height:2285px;
+	background-size: cover;
+	margin:10px 0 30px 0;
+}

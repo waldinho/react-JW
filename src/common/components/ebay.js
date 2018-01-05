@@ -22,7 +22,7 @@ class eBay extends Component {
                   <div className="parts-finder"></div>
                   <p>I have also included a couple a landing page and promotional email as examples of other typical pieces of work I would of done on the eBay account.</p>
                   <p className="title-text">Global shipping programme landing page <span className="larger-arrow">&gt;</span></p>
-                  <p><Link to="http://portal.ebay.co.uk/gsp" target="_blank" className="lp-link">Link to landing page</Link></p>
+                  <p><Link to="http://portal.ebay.co.uk/gsp" target="_blank" className="lp-link">Link</Link> to landing page</p>
                   <p className="title-text">German fashion promotional email <span className="larger-arrow">&gt;</span></p>
                   <div className="ebay-fashion"></div>
                 </div>

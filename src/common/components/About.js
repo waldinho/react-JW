@@ -13,7 +13,7 @@ class About extends Component {
                 <div className="main-content">
                   <p>My name is James Waller and I am a Web Developer specialising in everything your average web visitor sees and feels. User interface design and front end development.</p>
 
-                  <p>I live in Sydney, Australia, after working in London, England for 9 years as a UX Designer / Front End Developer and graduating as a Bachelor of Multimedia Technology from Leeds Metropolitan University, England in 2006.</p>
+                  <p>I live in Sydney, Australia, after working in London, England for 9 years as a Front End Developer / UX Designer and graduating as a Bachelor of Multimedia Technology from Leeds Metropolitan University, England in 2006.</p>
 
                   <p>I like creating unique clean sites that are easy to understand and navigate. All my works comply with web standards, use the latest industry techniques and are hand coded.</p></div>
                   <ul className="abt-grid">
