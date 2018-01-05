@@ -23,7 +23,7 @@ class Sidebar extends Component {
 			<div className="profile-wrap">
 
 				<div className="profile"></div>
-				<span className="up-arrow">^</span><span className="bio">Me bossin' it in Hong Kong.</span>
+				<span className="up-arrow">^</span><span className="bio">Me in Hong Kong.</span>
 
 			</div>
 
