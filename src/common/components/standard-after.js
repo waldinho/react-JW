@@ -16,7 +16,7 @@ class After extends Component {
                 <div className="main-content pad-50">
                   <p>During summer 2017, I undertook a huge prjoect for The Evening Standard, the task was to re-work the whole of the site's front end. As you may or may not know The Evening Standard is a huge website, so this was no mean feat.</p>
                   <p>I recieved the designs from the internal Graphic Designer. The designs were very different from the old site, as well as this we had decided to make the site more modular so sections of the site were now controlled in modules on the front and back end. So this meant changing the SASS and the template structuring.</p>
-                  <p>The templates were built using ejs templates, this allowed us to parse the data in using a json feed. The whole site worked on the MVC framework structuring principle and as you can see from the before and after shots of the homepage below (exuse the image quality, it was a VERY large file) I think it turned out very well.
+                  <p>The templates were built using ejs, this allowed us to parse the data in using a json feed. The whole site worked on the MVC framework structuring principle and as you can see from the before and after shots of the homepage below (exuse the image quality, it was a VERY large file) I think it turned out very well.
                   </p>
                   <div className="tabs">
                     <Link to="/portfolio/evening-standard" className="tab">Before</Link>
