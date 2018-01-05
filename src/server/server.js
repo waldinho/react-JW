@@ -61,7 +61,7 @@ app.get('/*', function (req, res) {
 
     if(err) {
       console.error(err);
-      return res.status(500).end('Internal server error');
+      return res.status(500).end(window.location = "/home");
     }
 
     if(!renderProps)
