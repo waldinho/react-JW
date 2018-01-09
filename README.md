@@ -7,7 +7,7 @@ npm install
 npm start
 
 
-<u>To do as of 20/12/2017</u>:
+<u>To do as of 9/01/2018</u>:
 
 1. Portfolio case studies - maybe jazz up slightly.
 2. Maybe change BetVictor for InterTrader??
