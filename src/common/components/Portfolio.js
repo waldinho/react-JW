@@ -61,7 +61,8 @@ class Portfolio extends Component {
 
     return (
         <div className="posts">
-        	{PortfolioRows}
+			{PortfolioRows}
+			{this.props.children}
         </div>
     );
 
