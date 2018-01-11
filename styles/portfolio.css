@@ -320,3 +320,78 @@ a.link-indy {text-decoration:none;}
 	background-size: cover;
 	margin:10px 0 30px 0;
 }
+
+
+@media only screen and (min-width:481px) and (max-width:860px) {
+	.euro-2016 {
+		height: 1220px;
+		width: 710px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	}
+
+	.parts-finder { 
+		height: 230px;
+		width: 710px;
+		margin: 0 auto;
+	} 
+	
+	.ebay-fashion { 
+		height: 2225px;
+		width: 500px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	} 
+	.es-new { 
+		width:710px;
+		height:7150px;
+	} 
+	
+	.es-old { 
+		width:710px;
+		height:2800px;
+	} 
+	.indy-sub{
+		width:710px;
+		height:2085px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.euro-2016 {
+		height: 460px;
+		width: 265px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	}
+	.parts-finder { 
+		height: 86px;
+		width: 265px;
+		margin: 0 auto;
+		margin-bottom:25px;
+	} 
+	
+	.ebay-fashion { 
+		height: 1145px;
+		width: 265px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	} 
+	.es-new { 
+		width:265px;
+		height:2693px;
+	} 
+	
+	.es-old { 
+		width:265px;
+		height:1042px;
+	} 
+	.indy-sub{
+		width:265px;
+		height:760px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	}
+}
