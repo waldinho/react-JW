@@ -61,7 +61,7 @@ app.get('/*', function (req, res) {
 
     if(err) {
       console.error(err);
-      return res.status(500).end(window.location = "/home");
+      return res.status(404).end('Not found');
     }
 
     if(!renderProps)
