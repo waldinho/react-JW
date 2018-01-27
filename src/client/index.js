@@ -12,7 +12,7 @@ import routes from '../common/routes';
 
 import "../../styles/index.css";
 
-import '../favicon.ico';
+// import '../favicon.ico';
 
 
 const history = createBrowserHistory();
