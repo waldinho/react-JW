@@ -25,7 +25,7 @@ const renderFullPage = (html, initialState) => {
         <meta name=viewport content="width=device-width, initial-scale=1">
         <title>James Waller | Front End Developer / UX Designer</title>
         <description style="display:none;">Web Developer specialising in everything your average web visitor sees and feels. User interface design and front end development.</description>
-        <link rel="shortcut icon" href="static/95f4831f7bbfecedf7957f8f65fc22bc.png" type="image/x-icon">
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="/static/app.css">
       </head> 
       <body>
