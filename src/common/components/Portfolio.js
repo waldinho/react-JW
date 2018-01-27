@@ -12,8 +12,6 @@ class Portfolio extends Component {
 	const RoleRows = (roles) => {
 		return roles.map((role) => {
 
-			
-			
 			return (
 					<li>
 						<div className="pt-item">				
