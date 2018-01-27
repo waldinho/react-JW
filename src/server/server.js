@@ -43,10 +43,10 @@ if(process.env.NODE_ENV !== 'production'){
   const compiler = webpack(webpackConfig);
   app.use(webpackDevMiddleware(compiler, { noInfo: true, publicPath: webpackConfig.output.publicPath }));
   app.use(webpackHotMiddleware(compiler));
-  app.use('/favicon.png', express.static(__dirname + '/../../dist'));
+  app.use('/favicon.ico', express.static(__dirname + '/../../dist'));
 }else{
   app.use('/static', express.static(__dirname + '/../../dist'));
-  app.use('/favicon.png', express.static(__dirname + '/../../dist'));
+  app.use('/favicon.ico', express.static(__dirname + '/../../dist'));
 }
 
     
