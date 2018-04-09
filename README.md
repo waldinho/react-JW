@@ -16,3 +16,6 @@ npm start
 5. Loading spinner??
 6. Maybe add some sort off novelty landing page before loading CV???
 7. Clean up unused code (maybe use css variables if time).
+
+
+New one going to be made soon, this was a experiment with react/redux.
