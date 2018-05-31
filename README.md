@@ -18,4 +18,4 @@ npm start
 7. Clean up unused code (maybe use css variables if time).
 
 
-New one going to be made soon, this was a experiment with react/redux.
+New one going to be made soon, this was a experiment with react/redux and will be retired to obscurity in the not too distant future.
