@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Loader from './layout/Loader';
+import { getPortfolio } from '../api/portfolio';
 
 class Home extends Component {
 
