@@ -123,14 +123,14 @@
 
 .company-image {
 	height: 130px;
-	width:130px;
+	width:200px;
 	margin: 0 auto;
 	background-position: center center;
-    background-size:130px;
-    background-repeat: no-repeat;
+    background-size:200px;
+	background-repeat: no-repeat;
 }
 
-.center {margin: 0 auto;text-align:center;}
+.center {margin: 0 auto;text-align:center;margin-top: -10px;}
 
 .pt-img-1 { 
 	background-image: url(../CircleHoverEffects/images/company-1.png);
@@ -225,12 +225,173 @@
 	transform: rotate3d(0,1,0,-180deg);
 }
 
-a.more {text-transform:uppercase;font-size:12px;text-decoration: none;padding:10px;}
+a.more {text-transform:uppercase;font-size:12px;text-decoration: none;padding: 170px 35px 10px 30px;}
 
 .no-more {display:none}
 
-a.case {text-transform:uppercase;font-size:12px;text-decoration: none;padding:10px;}
+a.case {text-transform:uppercase;font-size:12px;text-decoration: none;padding: 170px 35px 10px 30px;}
 
 .no-case {display:none}
 
-.larger-arrow{font-size:17px;}
+.larger-arrow{font-size:18px;}
+
+.euro-2016 { 
+	background-image: url(../styles/assets/euro-2016.png);
+	width:100%;
+	height:1385px;
+	background-size: cover;
+	margin:0 0 30px 0;
+} 
+
+.parts-finder { 
+	background-image: url(../styles/assets/parts-finder2.png);
+	width:100%;
+	height:260px;
+	background-size: cover;
+	margin:0 0 30px 0;
+} 
+
+.ebay-fashion { 
+	background-image: url(../styles/assets/ebay-fashion.png);
+	width:60%;
+	height:2115px;
+	background-size: cover;
+	margin:0 auto;
+	margin-bottom:30px;
+} 
+
+.title-text {
+	/* text-transform: uppercase; */
+    font-size: 16px;
+    color: #FF7575;
+}
+
+a.lp-link {
+	margin: 0 0 30px 0;
+	text-decoration:none;
+}
+
+a.lp-link:hover {
+	color: #FF7575;
+}
+
+.tabs {width:100%; text-align: center;padding: 20px 0 15px 0;}
+
+a.tab {
+	border:1px solid #666;
+	padding: 7px 10px 5px 10px;
+	margin: 0 20px;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+a.active-tab {
+	background: #FF7575;
+	color:#fff
+}
+
+.es-new { 
+	background-image: url(../styles/assets/es-new.jpg);
+	width:100%;
+	height:8093px;
+	background-size: cover;
+	margin:0 auto;
+	margin-bottom:30px;
+	margin-top:10px;
+} 
+
+.es-old { 
+	background-image: url(../styles/assets/es-old.jpg);
+	width:100%;
+	height:3142px;
+	background-size: cover;
+	margin:0 auto;
+	margin-bottom:30px;
+	margin-top:10px;
+} 
+
+a.link-indy {text-decoration:none;}
+
+.indy-sub{
+	background-image: url(../styles/assets/indy-sub.png);
+	width:100%;
+	height:2285px;
+	background-size: cover;
+	margin:10px 0 30px 0;
+}
+
+
+@media only screen and (min-width:481px) and (max-width:860px) {
+	.euro-2016 {
+		height: 1220px;
+		width: 710px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	}
+
+	.parts-finder { 
+		height: 230px;
+		width: 710px;
+		margin: 0 auto;
+	} 
+	
+	.ebay-fashion { 
+		height: 2225px;
+		width: 500px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	} 
+	.es-new { 
+		width:710px;
+		height:7150px;
+	} 
+	
+	.es-old { 
+		width:710px;
+		height:2800px;
+	} 
+	.indy-sub{
+		width:710px;
+		height:2085px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.euro-2016 {
+		height: 460px;
+		width: 265px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	}
+	.parts-finder { 
+		height: 86px;
+		width: 265px;
+		margin: 0 auto;
+		margin-bottom:25px;
+	} 
+	
+	.ebay-fashion { 
+		height: 1145px;
+		width: 265px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	} 
+	.es-new { 
+		width:265px;
+		height:2693px;
+	} 
+	
+	.es-old { 
+		width:265px;
+		height:1042px;
+	} 
+	.indy-sub{
+		width:265px;
+		height:760px;
+		margin: 0 auto;
+		margin-bottom:30px;
+	}
+}

@@ -5,14 +5,14 @@ import { Router } from 'react-router';
 import { Provider } from 'react-redux';
 import { ReduxRouter } from 'redux-router';
 
-import createBrowserHistory from 'history/lib/createBrowserHistory'
+import createBrowserHistory from 'history/lib/createBrowserHistory';
 
 import configureStore from '../common/store/configureStore';
 import routes from '../common/routes';
 
 import "../../styles/index.css";
 
-import '../../styles/assets/favicon.png';
+// import '../favicon.ico';
 
 
 const history = createBrowserHistory();

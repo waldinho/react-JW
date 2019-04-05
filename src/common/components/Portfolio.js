@@ -2,16 +2,9 @@ import React, { Component } from 'react';
 import { getPortfolio } from '../api/portfolio';
 import { Link } from 'react-router';
 import classNames from 'classnames';
+import { fetchComponentDataBeforeRender } from '../../common/api/fetchComponentDataBeforeRender';
 
 class Portfolio extends Component {
-
-  constructor(props) {
-		super(props);
-	  }
-	
-  componentDidMount() {
-		this.props.fetchReposIfNeeded();
-	  }
 
   render() {
 
@@ -19,8 +12,6 @@ class Portfolio extends Component {
 	const RoleRows = (roles) => {
 		return roles.map((role) => {
 
-			
-			
 			return (
 					<li>
 						<div className="pt-item">				
@@ -68,7 +59,8 @@ class Portfolio extends Component {
 
     return (
         <div className="posts">
-        	{PortfolioRows}
+			{PortfolioRows}
+			{this.props.children}
         </div>
     );
 

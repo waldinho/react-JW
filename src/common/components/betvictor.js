@@ -14,7 +14,9 @@ class BetVictor extends Component {
                   <div className="company-image pt-img-8"></div>
                   <div className="center"><Link to="/portfolio" className="more"><span className="larger-arrow">&gt;</span>Back</Link></div>
                   <div className="main-content pad-50">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <p>Whislt at London Capital Group, I was assigned the task of re-working BetVictor's (a client of London Capital Groups) look and feel to thier trading website. This task was obviously front end focused, it involved me taking a pre-existing design produced by a Graphic designer and turning that into complicit clean and tidy code.</p> 
+                  <p>BetVictor's website was CMS driven (Drupal) and I was given a large say in the look and feel of the website we produced, particularaly during the re-design process, which I was heavily involved in, with the implimentation of the new front end and UX of the website.</p> 
+                  <p>The project turned out to be a big success as well as being delivered on time, the client was very happy with the end product.</p> 
                   </div>
                 </div>
               </div>

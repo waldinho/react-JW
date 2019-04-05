@@ -15,8 +15,6 @@ import configureStore from '../common/store/configureStore';
 import routes from '../common/routes';
 import packagejson from '../../package.json';
 
-
-
 const app = express();
 const renderFullPage = (html, initialState) => {
   return `
@@ -63,7 +61,7 @@ app.get('/*', function (req, res) {
 
     if(err) {
       console.error(err);
-      return res.status(500).end('Internal server error');
+      return res.status(404).end('Not found');
     }
 
     if(!renderProps)

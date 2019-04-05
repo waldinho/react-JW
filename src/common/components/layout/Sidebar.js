@@ -23,16 +23,16 @@ class Sidebar extends Component {
 			<div className="profile-wrap">
 
 				<div className="profile"></div>
-				<span className="up-arrow">^</span><span className="bio">Me bossin' it in Hong Kong.</span>
+				<span className="up-arrow">^</span><span className="bio">Me in Hong Kong.</span>
 
 			</div>
 
 		  <nav className="sidebar-nav">
 		    <Link to="/home" className="sidebar-nav-item" activeClassName="active">Home</Link>
-		    <Link to="/portfolio" className="sidebar-nav-item"  activeClassName="active">Portfolio</Link>
+		    <Link to="/portfolio" className="sidebar-nav-item portfolio-nav" activeClassName="active">Portfolio</Link>
 		    <Link to="/services" className="sidebar-nav-item" activeClassName="active">Services</Link>
 		    <Link to="/about" className="sidebar-nav-item" activeClassName="active">About</Link>
-				<Link to="http://www.james-waller.co.uk/CV" className="sidebar-nav-item" activeClassName="active" target="_blank">CV</Link>
+				<Link to="http://cv.james-waller-digital.com" className="sidebar-nav-item" activeClassName="active" target="_blank">CV</Link>
 		  </nav>
 
 			<div className="icon-wrap">

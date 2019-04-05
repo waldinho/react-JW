@@ -1,19 +1,8 @@
-import React, { Component, PropTypes } from 'react';
-import { connect } from 'react-redux';
-
-import Loader from './layout/Loader';
-
+import React, { Component } from 'react';
+import classNames from 'classnames';
 class About extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  componentDidMount() {
-    this.props.fetchReposIfNeeded();
-  }
 
   render () {
-    const { results, isFetching, lastUpdated, error } = this.props;
     return (
       <div className="content-about">
 
@@ -24,9 +13,59 @@ class About extends Component {
                 <div className="main-content">
                   <p>My name is James Waller and I am a Web Developer specialising in everything your average web visitor sees and feels. User interface design and front end development.</p>
 
-                  <p>I live in London, after graduating as a Bachelor of Multimedia Technology from Leeds Metropolitan University in 2006. Since then I have enjoyed working in web design and development for over 7 years.</p>
+                  <p>I live in Sydney, Australia, after working in London, England for 9 years as a Front End Developer / UX Designer and graduating as a Bachelor of Multimedia Technology from Leeds Metropolitan University, England in 2006.</p>
 
                   <p>I like creating unique clean sites that are easy to understand and navigate. All my works comply with web standards, use the latest industry techniques and are hand coded.</p></div>
+                  <ul className="abt-grid">
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info">
+                          <div className="abt-img-1">
+                          </div>	
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info">
+                          <div className="abt-img-2">
+                          </div>	
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info">
+                          <div className="abt-img-3">
+                          </div>	
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info">
+                          <div className="abt-img-4">
+                          </div>	
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info">
+                          <div className="abt-img-5">
+                          </div>	
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="abt-item">				
+                        <div className="abt-info">
+                          <div className="abt-img-6">
+                          </div>	
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
              </div>
 	      </div>
 
@@ -34,11 +73,5 @@ class About extends Component {
     );
   }
 }
-
-About.propTypes = {
-  results: PropTypes.array.isRequired,
-  error: PropTypes.object.isRequired,
-  isFetching: PropTypes.bool.isRequired
-};
 
 export default About;
